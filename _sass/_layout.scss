@@ -22,3 +22,28 @@
   background: url('/images/header-bg2.png');
   background-size: 400px 400px;
 }
+
+//Footer
+
+.site-footer{
+  padding: 2em 0;
+  color: #fff;
+  background: $grey-color-dark;
+}
+.footer-content{
+  float: left;
+  width: 40%;
+  font-size: 0.875em;
+  h3{
+    text-align: left;
+  }
+}
+.footer-social{
+  float: right;
+  li{
+    display: inline-block;
+    margin: 0 .5em;
+  }
+  
+  
+}

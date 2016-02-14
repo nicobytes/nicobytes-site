@@ -2,37 +2,25 @@
 
   <div class="wrapper">
 
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
-      </div>
+    <div class="footer-content">
+      <h3>Lorem</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non cumque maxime sunt error! Ex ea quibusdam suscipit esse nostrum quod pariatur id hic, dolore placeat consequuntur, accusantium aut necessitatibus magnam.</p>
+      <p>Subscibe <a href="{{ '/feed.xml' | prepend: site.baseurl  }}">via RSS</a></p>
     </div>
-
+    <div class="footer-social">
+      <ul>
+        <li>
+           <a href="https://twitter.com/{{ site.twitter_username  }}">
+             <img src="/images/twitter.png" alt="twitter" width="40">
+           </a>
+        </li>
+        <li>
+           <a href="https://github.com/{{ site.github_username }}">
+             <img src="/images/github.png" alt="github" width="40">
+           </a>
+        </li>
+      </ul>
+    </div>
   </div>
 
 </footer>
