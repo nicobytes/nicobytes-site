@@ -1,0 +1,7 @@
+<h2>{{ post.title }}</h2>
+<p>
+{{ post.content | strip_html | strip_newlines | truncate: 200  }}
+</p>
+<p class="post-read-more-link">
+  <a href="#">read more...</a>
+</p>
