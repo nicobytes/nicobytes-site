@@ -4,20 +4,22 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+  <!-- section for featured post -->
+  <!-- section for featured projects -->
+  <!-- section for featured articles -->
+  
+  <section class="site-section site-section-last">
+      <div class="wraper">
+        <h1>lasted articles</h1>
+        <ul class="post-list">
+          <li class="post">
+            <h2>Post</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.  </p>
+            <p class="post-read-more-link">
+              <a href="#">read more...</a>
+            </p>
+          </li>
+        </ul>
+      </div>
+  </section>
 </div>
