@@ -4,20 +4,49 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+  <!-- section for featured post -->
+  
+  <section class="site-section">
+      <div class="wraper">
+        <h1>featured article</h1>
+        {% assign count = 0 %}
+        {% for post in site.categories['blog'] %}
+          {% if post.featured == true and count == 0 %}
+            <div class="post post-featured">
+              {% include post.html %}
+            </div>
+            {% assign count = count | plus: 1 %}
+          {% endif %}
+        {% endfor  %}
+      </div>
+  </section>
+  
+  <!-- section for featured projects -->
+  
+   <section class="site-section">
+      <div class="wraper">
+        <h1>featured projects</h1>
+        <ul class="project-list">
+          {% for project in site.categories['project'] | limit:4 %}
+            {% if project.featured == true %}
+              {% include project.html %}
+            {% endif %}
+          {% endfor  %}
+        </ul>
+      </div>
+  </section>
+  <!-- section for featured articles -->
+  
+  <section class="site-section site-section-last">
+      <div class="wraper">
+        <h1>lasted articles</h1>
+        <ul class="post-list">
+          {% for post in site.categories['blog'] | limit:4 %}
+            <li class="post">
+              {% include post.html %}
+            </li>
+          {% endfor  %}
+        </ul>
+      </div>
+  </section>
 </div>
