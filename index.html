@@ -5,13 +5,34 @@ layout: default
 <div id="headerwrap">
   <div class="container">
     <div class="row">
-      <div class="col-md-12 col-lg-8 col-lg-offset-2">
-        <h3>Desarrollador FrontEnd y Apps Hibridas</h3>
-        <h1>Nicolas Molina</h1>
-        <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis possimus doloribus, maxime ullam, eligendi repudiandae. Quas ut illo illum, iusto dolorum quae, ullam, vero quis fuga veritatis facere eius cum!</h5>
+      <div class="col-md-10 col-md-offset-1 bio">
+        <div class="row">
+          <div class="col-md-4">
+            <img src="images/photo.jpg" class="img-responsive" alt="photo">
+          </div>
+          <div class="col-md-8">
+            <span class="greet">¡Hola!</span>
+            <h1>Soy Nicolas Molina <a class="btn" href="{{ site.twitter }}" target="_blank">
+                <i class="fa fa-twitter fa-2x"></i>
+              </a></h1>
+            <h3>Desarrollador FrontEnd & Mobile Apps</h3>
+            <hr/>
+            <p>Hola, Soy Nicolas Molina. Desarrollador web especializado en el area de <span class="tag">#FrontEnd</span> & <span class="tag">#hybripApps</span>, enfocado en aprendizaje de <span class="tag">#JS</span> y al desarrollo de apps con <span class="tag">#Angular2</span> y <span class="tag">#Ionic2</span>.</p>
+          </div>
+        </div>
       </div>
-      <div class="col-md-12 col-lg-8 col-lg-offset-2">
-        <img src="/images/responsive.png" alt="responsive" class="img-responsive center-block">
+    </div>
+    <div class="row">
+      <div class="col-md-10 col-md-offset-1 social">
+         <div class="row">
+            {% for social in site.social  %}
+            <div class="col-xs-1">
+              <a class="btn" href="{{ social.link }}" target="_blank">
+                <i class="fa fa-{{ social.icon }} fa-2x"></i>
+              </a>
+            </div>
+            {% endfor %}
+         </div>
       </div>
     </div>
   </div>
