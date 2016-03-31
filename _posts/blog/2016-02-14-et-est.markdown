@@ -4,6 +4,7 @@ title:  "Et est"
 date:   2016-02-14 09:52:42 -0500
 categories: blog
 tags: code design
+featured: true
 ---
 # Et est dirae cicatrix ne parvo sibi
 

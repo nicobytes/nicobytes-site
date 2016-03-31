@@ -1,8 +1,20 @@
-.post-list{
-  @extend %clearfix;
-  list-style: none;
+#posts-list{
+  .post-tags{
+    margin-left: 0;
+    min-height: 50px;
+    text-align: center;
+    li{
+      display: inline;
+    }
+  }
+  .post-title > a{
+    color: $nb-color-primary;
+  }
+  .post-home{
+    text-align:center;
+  }
 }
-
+/*
 .post{
   float: left;
   width: 50%;
@@ -50,3 +62,4 @@
     margin: $h2-font-size auto;
   }
 }
+*/
