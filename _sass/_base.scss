@@ -10,3 +10,19 @@ h1, h2, h3, h4, h5{
   background-color: $nb-color-primary;
   border-color: $nb-color-primary;
 }
+#title{
+  background-color: $nb-color-primary;
+  color: white;
+  h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+#project-detail{
+  img.icon{
+    width: 50%;
+  }
+  .legend{
+    margin-top: 60px;
+  }
+}

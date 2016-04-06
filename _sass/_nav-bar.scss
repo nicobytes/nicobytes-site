@@ -6,6 +6,7 @@
     max-height: 50px;
     position: relative;
     top: -12px;
+    left: -6px;
   }
   &.navbar-default {
     background-color: $nb-color-secondary;
@@ -24,6 +25,9 @@
         background-color: white;
       }
     }
+  }
+  .navbar-brand{
+    padding-left: 0px;
   }
   .navbar-nav > li > a{
     color: white;

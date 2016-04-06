@@ -1,10 +1,14 @@
 ---
-layout: post
-title: "Litora sub dicitur ardescunt sonat"
+layout: project
+title: "SponzorMe Mobile App"
 date: 2016-02-20 08:03:00 -0500
 categories: project
 cover_image: "/images/project.png"
 tags: snippet code
+icon: "sponzorme/icon.png"
+banner: "sponzorme/banner.jpg"
+legend: "Descubre Eventos y Patrocinadores en cualquier lugar del mundo."
+website: "http://www.sponzor.me/"
 ---
 
 ## Vellem toto ramos equi tibi venti in
