@@ -1,21 +1,26 @@
-<div id="portfolio-list">
-    <div class="portfolio-centered">
-        {% if include.title %}<h3>{{ include.title }}</h3>{% endif %}
-        <div class="recentitems portfolio">
-            {% for project in site.categories['project'] limit:include.limit %}
-                <div class="portfolio-item graphic-design">
-                    <div class="he-wrap tpl6">
-                    <img src="{{ "/assets/img/project/" | prepend: site.baseurl }}{{ project.img }}" alt="">
-                        <div class="he-view">
-                            <div class="bg a0" data-animate="fadeIn">
-                                <h3 class="a1" data-animate="fadeInDown">{{ project.title }}</h3>
-                                <a data-rel="prettyPhoto" href="{{ "/assets/img/project/" | prepend: site.baseurl }}{{ project.img }}" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
-                                <a href="{{  project.url | prepend: site.baseurl }}" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
-                            </div><!-- he bg -->
-                        </div><!-- he view -->		
-                    </div><!-- he wrap -->
-                </div><!-- end col-12 -->
-            {% endfor %}
-        </div><!-- portfolio -->
-    </div><!-- portfolio container -->
-</div><!--/Portfoliowrap -->
+<!-- -->
+<section id="portfolio-list">
+    <div class="container">
+        <div class="row centered">
+            <div class="col-sm-12 ">
+              <h1>Ultimos proyectos</h1>
+              <p>Econtratas aqui los ultimos proyectos en los que he trabajo, pero si quieres ver completamente todos solo da click en el boton de abajo</p>
+              <a class="btn btn-success" href="{{ post.url | prepend:site.baseurl }}">Ver portafolio.</a>
+              <div id="grid-projects">
+                <ul class="grid">
+                  {% for project in site.categories['project'] %}
+                  <li class="item">
+                    <a href="{{  project.url | prepend: site.baseurl }}">
+                      <div class="layer"></div>
+                      <div class="layer"></div>
+                      <div class="layer"></div>
+                      <img src="{{ project.cover_image }}" alt="{{ project.title }}">
+                    </a>
+                  </li>
+                   {% endfor %}
+                </ul>
+              </div>
+            </div>
+        </div>
+    </div>
+</section><!--/Portfoliowrap -->
