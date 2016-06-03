@@ -6,15 +6,35 @@
               <h1>Ultimos proyectos</h1>
               <p>Econtratas aqui los ultimos proyectos en los que he trabajo, pero si quieres ver completamente todos solo da click en el boton de abajo</p>
               <a class="btn btn-success" href="{{ post.url | prepend:site.baseurl }}">Ver portafolio.</a>
-              <div id="grid-projects">
+              <div class="isolayer isolayer--deco4">
                 <ul class="grid">
                   {% for project in site.categories['project'] %}
-                  <li class="item">
-                    <a href="{{  project.url | prepend: site.baseurl }}">
+                  <li class="grid__item">
+                    <a class="grid__link" href="{{  project.url | prepend: site.baseurl }}">
                       <div class="layer"></div>
                       <div class="layer"></div>
                       <div class="layer"></div>
-                      <img src="{{ project.cover_image }}" alt="{{ project.title }}">
+                      <img class="grid__img layer" src="{{ project.cover_image }}" alt="{{ project.title }}">
+                    </a>
+                  </li>
+                   {% endfor %}
+                   {% for project in site.categories['project'] %}
+                  <li class="grid__item">
+                    <a class="grid__link" href="{{  project.url | prepend: site.baseurl }}">
+                      <div class="layer"></div>
+                      <div class="layer"></div>
+                      <div class="layer"></div>
+                      <img class="grid__img layer" src="{{ project.cover_image }}" alt="{{ project.title }}">
+                    </a>
+                  </li>
+                   {% endfor %}
+                   {% for project in site.categories['project'] %}
+                  <li class="grid__item">
+                    <a class="grid__link" href="{{  project.url | prepend: site.baseurl }}">
+                      <div class="layer"></div>
+                      <div class="layer"></div>
+                      <div class="layer"></div>
+                      <img class="grid__img layer" src="{{ project.cover_image }}" alt="{{ project.title }}">
                     </a>
                   </li>
                    {% endfor %}

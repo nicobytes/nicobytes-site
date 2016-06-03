@@ -20,6 +20,8 @@
   ],
   "dependencies": {
     "bootstrap": "^3.3.6",
-    "imagesloaded": "^4.1.0"
+    "imagesloaded": "^4.1.0",
+    "masonry": "^4.1.0",
+    "classie": "^1.0.1"
   }
 }
