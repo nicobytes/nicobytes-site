@@ -1,29 +1,4 @@
 <script src='{{ "/bower_components/jquery/dist/jquery.min.js" | prepend: site.baseurl }}'></script>
 <script src='{{ "/bower_components/bootstrap/dist/js/bootstrap.min.js" | prepend: site.baseurl }}'></script>
 <script src='{{ "/bower_components/imagesloaded/imagesloaded.pkgd.min.js" | prepend: site.baseurl }}'></script>
-<script src='{{ "/bower_components/masonry/dist/masonry.pkgd.min.js" | prepend: site.baseurl }}'></script>
-<script src='{{ "/bower_components/classie/classie.js" | prepend: site.baseurl }}'></script>
-<script src='{{ "/js/dynamics.min.js" | prepend: site.baseurl }}'></script>
 <script src='{{ "/js/main.js" | prepend: site.baseurl }}'></script>
-<script>
-  new IsoGrid(document.querySelector('.isolayer--deco4'), {
-				perspective: 3000,
-				transform : 'translate3d(-200px,-200px,0) scale3d(0.8,0.8,1) rotateY(45deg) rotateZ(-10deg)',
-				stackItemsAnimation : {
-					properties : function(pos) {
-						return {
-							rotateX: (pos+1) * -15
-						};
-					},
-					options : function(pos, itemstotal) {
-						return {
-							type: dynamics.spring,
-							delay: (itemstotal-pos-1)*30
-						};
-					}
-				},
-				onGridLoaded : function() {
-					classie.add(document.body, 'grid-loaded');
-				}
-			});
-</script>
