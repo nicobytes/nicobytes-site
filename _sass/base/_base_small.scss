@@ -1,8 +1,9 @@
-
-
 /* Small only */
 @media screen and (max-width: 39.9375em) {
-  
+  .section {
+    position: relative;
+  }
+  /*
   #project-detail{
     img.icon{
       width: 50%;
@@ -31,7 +32,7 @@
 
   .js body.grid-loaded::after {
     opacity: 0;
-  }
+  }*/
 }
 
 

@@ -1,55 +1,9 @@
 /* Small only */
 @media screen and (max-width: 39.9375em) {
   #cover-home {
-	min-height: 0px;
-  background-size: 100%;
-    h1{
-      margin-bottom: 0px;
-    }
-    h1 + h3{
-      margin: 0px;
-    }
-    .container .bio{
-      background: white;
-      color: black;
-      padding: 30px;
-    }
+    min-height: 0px;
     .greet{
       margin-top: 10px;
-      padding: 5px 20px;
-      background-color: $nb-color-primary;
-      color: white;
-      display: inline-block;
-      position: relative;
-      &:before{
-        width: 0px;
-        height: 0px;
-        border: 15px solid transparent;
-        border-left-color: $nb-color-primary;
-        content: '';
-        display: block;
-        position: absolute;
-        bottom: -15px;
-        left:10px;
-      }
-    }
-    .social{
-      background-color: $nb-color-primary;
-      padding: 20px 30px;
-      box-shadow: 0px 7px 12px rgba(0,0,0,.5);
-      a{
-        color: white;
-      }
-    }
-    span.tag{
-      color: white;
-      background: $nb-color-primary;
-      padding: 2px 5px;
-      border-radius: 2px;
-      text-shadow: 0px 1px 1px rgba(0,0,0,.5);
-    }
-    p{
-      font-size: 16px;
     }
   }
 }

@@ -40,6 +40,8 @@ social:
     icon: "angellist"
   - link: "https://www.facebook.com/nicolas.molina.127"
     icon: "facebook"
+  - link: "http://stackoverflow.com/users/6420164/nicolas-molina"
+    icon: "stack-overflow"
 
 
 # Build settings

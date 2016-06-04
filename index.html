@@ -2,84 +2,9 @@
 layout: default
 title: Home
 ---
-<!-- Banner  -->
-<section id="cover-home">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-10 col-md-offset-1 bio">
-        <div class="row">
-          <div class="col-md-4">
-            <img src="images/photo.jpg" class="img-responsive" alt="photo">
-          </div>
-          <div class="col-md-8">
-            <span class="greet">¡Hola!</span>
-            <h1>Soy Nicolas Molina <a class="btn" href="{{ site.twitter }}" target="_blank">
-                <i class="fa fa-twitter fa-2x"></i>
-              </a></h1>
-            <h3>Desarrollador FrontEnd & Mobile Apps</h3>
-            <hr/>
-            <p>Hola, Soy Nicolas Molina. Desarrollador web especializado en el area de <span class="tag">#FrontEnd</span> & <span class="tag">#hybripApps</span>, enfocado en aprendizaje de <span class="tag">#JS</span> y al desarrollo de apps con <span class="tag">#Angular2</span> y <span class="tag">#Ionic2</span>.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-10 col-md-offset-1 social">
-         <div class="row">
-            {% for social in site.social  %}
-            <div class="col-xs-1">
-              <a class="btn" href="{{ social.link }}" target="_blank">
-                <i class="fa fa-{{ social.icon }} fa-2x"></i>
-              </a>
-            </div>
-            {% endfor %}
-         </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="skills-list">
-    <div class="container">
-        <div class="row centered">
-          <div class="col-md-4 skill">
-            <i class="fa fa-code"></i>
-            <h3 class="skill-title">
-              <a href="{{ post.url | prepend:site.baseurl }}">Desarrollo web y mobil</a>
-            </h3>
-            <p>
-            Articulos sobre las tecnicas de desarrollo web y mobiles, tanto de tecnoologías backend y frontend, basadas en las mejores practicas de programación y codido limpio, y por supuesto demos y labs todo el codigo en gitHub.
-            </p>
-            <p class="post-read-more-link">
-              <a class="btn btn-success" href="{{ post.url | prepend:site.baseurl }}">Ver articulos..</a>
-            </p>
-          </div>
-          <div class="col-md-4 skill">
-            <i class="fa fa-certificate"></i>
-            <h3 class="skill-title">
-              <a href="{{ post.url | prepend:site.baseurl }}">Lider de comunidades</a>
-            </h3>
-            <p>
-            Compartir y aportar a las comunidades hace parte de mis pasiones, por aqui cada una de las vivencias en meetups, hacktones, conferencias y toda clase de eventos tecnologicos.
-            </p>
-            <p class="post-read-more-link">
-              <a class="btn btn-success" href="{{ post.url | prepend:site.baseurl }}">Ver articulos..</a>
-            </p>
-          </div>
-          <div class="col-md-4 skill">
-            <i class="fa fa-flask"></i>
-            <h3 class="skill-title">
-              <a href="{{ post.url | prepend:site.baseurl }}">Testing</a>
-            </h3>
-            <p>
-            Una de las formas para aumentar la calidad del prodcuto y por consecuencia del codigo es toda el area de testing, asi aqui varios articulos acerca de este tema. Enfocado en todo el espectro de pruebas como E2E o Unit Testing.
-            </p>
-            <p class="post-read-more-link">
-              <a class="btn btn-success" href="{{ post.url | prepend:site.baseurl }}">Ver articulos..</a>
-            </p>
-          </div>	 				
-        </div>
-    </div>
-</section>
-
+<!-- Cover Home  -->
+{% include home/cover_home.html %}
+<!-- Skills Home  -->
+{% include home/skills_home.html %}
+<!-- Portfolio Home  -->
 {% include portfolio.html title="LATEST WORKS" limit=10 %}
