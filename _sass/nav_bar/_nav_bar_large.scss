@@ -1,0 +1,10 @@
+/* Large and up */
+@media screen and (min-width: 64em) {
+  .navbar{
+    img.logo{
+      max-height: 50px;
+      position: relative;
+      top: -16px;
+    }
+  }
+}

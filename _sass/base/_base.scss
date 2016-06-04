@@ -1,0 +1,32 @@
+body { 
+  padding-top: 10vh;
+  font-family: $nb-font-family;
+  background: white;
+}
+h1, h2, h3, h4, h5{
+  font-family: $nb-font-family;
+}
+
+.btn-success{
+  background-color: $nb-color-primary;
+  border-color: $nb-color-primary;
+}
+
+#title{
+    background-color: $nb-color-primary;
+    color: white;
+}
+
+ #title{
+  background-color: $nb-color-primary;
+  color: white;
+  h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+@import
+"base_small",
+"base_medium",
+"base_large";

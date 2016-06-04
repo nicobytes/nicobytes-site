@@ -1,0 +1,10 @@
+/* Large and up */
+@media screen and (min-width: 64em) {
+  #cover-home {
+	  padding: 50px 0px;
+    background-image: url('../images/background.png');
+    .greet{
+      margin-top: 0px;
+    }
+  }
+}

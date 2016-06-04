@@ -1,13 +1,7 @@
 .navbar{
-  min-height: 70px;
+  min-height: 10vh;
   padding-top: 10px;
   margin-bottom: 0px;
-  img.logo{
-    max-height: 50px;
-    position: relative;
-    top: -12px;
-    left: -6px;
-  }
   &.navbar-default {
     background-color: $nb-color-secondary;
     border-color: transparent;
@@ -40,3 +34,8 @@
     background-color: transparent;
   }
 }
+
+@import
+"nav_bar_small",
+"nav_bar_medium",
+"nav_bar_large";

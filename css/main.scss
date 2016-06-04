@@ -5,9 +5,9 @@
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
 "variables",
-"base",
-"headerwrap",
-"nav-bar",
+"base/base",
+"cover_home/cover_home",
+"nav_bar/nav_bar",
 "project-detail",
 "components/posts",
 "components/skills";
