@@ -24,7 +24,7 @@
          <div class="row">
             {% for social in site.social  %}
             <div class="col-xs-2 col-sm-1">
-              <a class="btn" href="{{ social.link }}" target="_blank">
+              <a class="btn {{ social.icon }}" href="{{ social.link }}" target="_blank">
                 <i class="fa fa-{{ social.icon }} fa-2x"></i>
               </a>
             </div>

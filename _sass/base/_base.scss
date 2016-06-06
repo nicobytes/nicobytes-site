@@ -3,6 +3,28 @@ body {
   font-family: $nb-font-family;
   background: white;
 }
+.btn{
+  position: relative
+}
+.btn.medium::before{
+    display: block;
+    content: '1';
+    position: absolute;
+    border-radius: 64px;
+    border: 2px solid #FFF;
+    width: 21px;
+    height: 21px;
+    text-align: center;
+    background: #D55757;
+    color: #FFF;
+    right: 0px;
+    top: -5px;
+    text-align: center;
+    z-index: 1;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 18px;
+}
 h1, h2, h3, h4, h5{
   font-family: $nb-font-family;
 }

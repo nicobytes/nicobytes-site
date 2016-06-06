@@ -28,6 +28,8 @@ links:
     url: /contact
 
 social:
+  - link: "https://medium.com/@nicobytes"
+    icon: "medium"
   - link: "https://twitter.com/nicobytes"
     icon: "twitter"
   - link: "https://github.com/nicobytes"
@@ -42,8 +44,6 @@ social:
     icon: "facebook"
   - link: "http://stackoverflow.com/users/6420164/nicolas-molina"
     icon: "stack-overflow"
-  - link: "https://medium.com/@nicobytes"
-    icon: "medium"
 
 
 # Build settings
