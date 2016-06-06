@@ -5,6 +5,15 @@
   &.navbar-default {
     background-color: $nb-color-secondary;
     border-color: transparent;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    a{
+      background: white;
+      color: $nb-color-secondary;
+      padding: 5px;
+      border-radius: 5px;
+    }
     .navbar-collapse{
       border: 0px;
       box-shadow: 0px 0px 0px;

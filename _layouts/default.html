@@ -3,8 +3,12 @@
   {% include head.html %}
   <body>
     {% include nav.html %}
+    
     {{ content }}
+    {% comment %}
     {% include footer.html %}
+    {% endcomment %}
+    
     {% include js.html %}
   </body>
 </html>

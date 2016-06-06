@@ -42,6 +42,8 @@ social:
     icon: "facebook"
   - link: "http://stackoverflow.com/users/6420164/nicolas-molina"
     icon: "stack-overflow"
+  - link: "https://medium.com/@nicobytes"
+    icon: "medium"
 
 
 # Build settings
