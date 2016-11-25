@@ -3,13 +3,15 @@
   <div id="navbar">
     <nav class="navbar">
       <div class="left-nav">
-        <a href="#" class="title">
+        <a href="{{ "/"  | prepend: site.baseurl }}" class="title">
           <amp-img src="images/glasses.png" alt="nicobytes" width="178" height="80" layout="responsive"></amp-img>
           @nicobytes
         </a>
       </div>
       <div class="right-nav">
-        {% for link in site.links %}<div class="tab"><a href="{{ link.url }}" target="_blank">{{ link.title }}</a></div>{% endfor %}
+        {% for link in site.links %}<div class="tab {% if page.title == link.title %}active{% endif %}">
+          <a href="{{ link.url | prepend: site.baseurl }}" target="{{link.target}}">{{ link.title }}</a>
+        </div>{% endfor %}
         <button class="tab menu" on='tap:sidebar.toggle'></button>
       </div>
     </nav>

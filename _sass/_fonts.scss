@@ -22,6 +22,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 .icon-twitter:before {
   content: "\e000";
 }
@@ -42,4 +43,28 @@
 }
 .icon-instagram:before {
   content: "\e006";
+}
+.icon-conf:before {
+  content: "\e008";
+}
+.icon-youtube:before {
+  content: "\e009";
+}
+.icon-meetup:before {
+  content: "\e00a";
+}
+.icon-course:before {
+  content: "\e00b";
+}
+.icon-building:before {
+  content: "\e00d";
+}
+.icon-workshop:before {
+  content: "\e007";
+}
+.icon-location:before {
+  content: "\e00c";
+}
+.icon-slides:before {
+  content: "\e00e";
 }

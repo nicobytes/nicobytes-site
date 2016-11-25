@@ -34,6 +34,9 @@
       div.tab{
         display: none;
         padding: 0px 16px;
+        &.active{
+          border-bottom: 2px solid white;
+        }
         a{
           color: white;
           text-decoration: none;

@@ -21,12 +21,15 @@ sass:
     style: compressed
 
 links:
-  - title: Inicio
+  - title: Home
     url: /
+    target: '_self'
   - title: Blog
     url: 'http://www.ion-book.com/nicobytes/'
-  - title: Charlas
+    target: '_blank'
+  - title: Talks
     url: /talks
+    target: '_self'
 
 social:
   - link: "https://medium.com/@nicobytes"
@@ -50,112 +53,120 @@ talks:
     slides: ''
     cover: ''
     date: '2016-11-11'
-    place: 'Capital Junior College'
     location: 'Bogota, Colombia'
   - title: "Ecmascript 6 + Typescript + Ionic 2"
     type: 'meetup'
     slides: ''
     cover: ''
     date: '2016-11-11'
-    place: 'Capital Junior College'
     location: 'Bogota, Colombia'
   - title: "Introducción a Ionic2 & Angular2"
     type: 'meetup'
     slides: ''
     cover: ''
     date: '2016-09-15'
-    place: 'Capital Junior College'
     location: 'Cali, Colombia'
   - title: "Introducción a Ionic 2"
     type: 'meetup'
     slides: ''
     cover: ''
     date: '2016-09-09'
-    place: 'Capital Junior College'
     location: 'Medellin, Colombia'
   - title: "Ionic 2 VS Native Script VS React Native"
     type: 'meetup'
     slides: ''
     cover: ''
     date: '2016-08-19'
-    place: 'Capital Junior College'
     location: 'Medellin, Colombia'
   - title: "Crosswalk-project"
     type: 'meetup'
     slides: ''
     cover: ''
     date: '2016-07-13'
-    place: 'Capital Junior College'
     location: 'Medellin, Colombia'
   - title: "Introducción a Ionic 2"
     type: 'meetup'
     slides: ''
     cover: ''
     date: '2016-07-13'
-    place: 'Capital Junior College'
     location: 'Medellin, Colombia'
   - title: "Ionic Cbba"
     type: 'meetup'
     slides: ''
     cover: ''
     date: '2016-05-13'
-    place: 'Elemental'
     location: 'Cochabamba, Bolivia'
   - title: "Ionic Workshop"
     type: 'workshop'
     slides: ''
     cover: ''
     date: '2016-04-09'
-    place: 'Elemental'
     location: 'La Paz, Bolivia'
   - title: "Ionic GDG La Paz"
     type: 'meetup'
     slides: ''
     cover: ''
     date: '2016-03-25'
-    place: 'Elemental'
     location: 'La Paz, Bolivia'
   - title: "IonicDay"
-    type: 'meetup'
-    slides: ''
-    cover: ''
-    date: '2016-02-27'
-    place: 'DevAcademy'
+    type: 'workshop'
+    text: 'Siguiendo con el workshop haremos una aplicación en live code, donde aprenderemos los principales componentes de ionic framework y su uso.'
+    image:
+      url: 'images/time5.jpg'
+      width: 960
+      height: 720
+    date: '2016-03-04'
     location: 'Lima, Peru'
-  - title: "Apps con Ionic "
+  - title: "Apps con Ionic 1"
     type: 'meetup'
-    slides: ''
-    cover: ''
+    text: 'Desarrollo de aplicaciones híbridas con ionic desarrollo multiplataforma con la misma base de código.'
+    slides: 'http://www.nicobytes.com/ionic-slides/'
+    image:
+      url: 'images/time4.jpg'
+      width: 960
+      height: 540
     date: '2016-02-05'
-    place: 'DevAcademy'
     location: 'Ica, Peru'
-  - title: "Pruebas unitarias en Angular "
-    type: 'hangout'
-    slides: ''
-    cover: ''
+  - title: "Pruebas unitarias en Angular 1.x"
+    type: 'youtube'
+    text: 'En este #devHangout conversamos acerca de Pruebas unitarias en Angular que empieza con la filosofia que es TDD. TDD es una práctica de ingeniería de software que involucra otras dos prácticas: Escribir las pruebas primero (Test First Development) y Refactorización (Refactoring).'
+    slides: 'http://slides.com/nicobytes/testing'
+    youtube: 'WNLM7ZX65e4'
     date: '2016-01-27'
-    place: 'DevAcademy'
     location: 'Ica, Peru'
   - title: "Ionic Framework"
-    type: 'hangout'
-    slides: ''
-    cover: ''
+    type: 'youtube'
+    text: 'En este #devHangout conoceremos sobre el desarrollo de aplicaciones híbridas con ionic, el desarrollo multiplataforma con la misma base de código.'
+    slides: 'http://www.nicobytes.com/ionic-slides/'
+    youtube: 'z1V8Qxf_wL4'
     date: '2016-01-20'
-    place: 'DevAcademy'
     location: 'Ica, Peru'
-  - title: "Crosswalk-project"
+  - title: "Haciendo apps con Ionic 1"
     type: 'meetup'
-    slides: ''
-    cover: ''
-    date: '2015-09-08'
-    place: 'ViveLab'
+    text: 'Presentaremos a ionic framework y como ha cambiado la forma para desarrollar aplicaciones móviles híbridas, desde los componentes que maneja y su flujo de trabajo. Ionic en un framework basado en AngularJS con asombrosas API de UI/UX que mejoran el desarrollo. '
+    slides: 'http://www.nicobytes.com/ionic-slides/'
+    tweet: '664976174108512256'
+    date: '2015-11-12'
     location: 'Bogotá, Colombia'
-  - title: "Ionic + Firebase"
+  - title: "Crosswalk Project"
     type: 'meetup'
-    slides: ''
-    cover: ''
+    text: 'En un gran proyecto en cual puedes aumentar el performance de la aplicación híbrida, teniendo un webView más poderoso y estándar reduciendo la fragmentación de dispositivos, además veremos cómo añadirlos a proyectos con cordova, phonegap o ionic framework. '
+    slides: 'http://slides.com/nicobytes/crosswalk#/'
+    image:
+      url: 'images/time2.jpg'
+      width: 1280
+      height: 720
+    date: '2015-09-08'
+    location: 'Bogotá, Colombia'
+  - title: "Ionic 1 + Firebase"
+    type: 'meetup'
+    text: 'Aprende a trabajar con estas dos increíbles tecnologías para desarrollar tu aplicación móvil. Conocerás cómo integrar bases de datos NoSql con firebase, haciendo que tu aplicación tenga conexión en tiempo real con tus datos.'
+    slides: 'http://slides.com/nicobytes/construyendo-apps#/'
+    image:
+      url: 'images/time1.jpeg'
+      width: 1280
+      height: 720
     date: '2015-07-09'
-    place: 'ViveLab'
     location: 'Bogotá, Colombia'
 
 

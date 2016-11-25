@@ -4,6 +4,7 @@ section.timeline{
   margin: 0 auto;
   max-width: 900px;
   box-sizing: border-box;
+  box-shadow: 0px 6px 20px rgba(black, .5);
   > h1{
     margin-top: 0px;
   }
@@ -86,9 +87,15 @@ section.timeline{
           margin: 0px 0px 5px 0px;
           border-bottom: 1px solid white;
         }
+        small{
+          text-transform: capitalize;
+        }
         .item{
          margin: 5px 0px;
          color: white;
+        }
+        .location{
+          font-size: .8em;
         }
       }
     }

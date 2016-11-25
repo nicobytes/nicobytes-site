@@ -1,5 +1,7 @@
 @media screen and (min-width: 40em) and (max-width: 63.9375em) {
   section.timeline{
+    margin-top: 20px;
+    width: 90%;
     > ul{
       &:before{
         display: block;
@@ -13,6 +15,7 @@
           display: inline-flex;
         }
         article{
+          width: 100%;
           margin-left: 50px;
           &:before{
             border-right-color: $nb-color-primary;

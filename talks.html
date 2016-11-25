@@ -6,43 +6,30 @@ title: Talks
   <h1>Talks</h1>
   <p>Todas los meetups, cursos, workshops, conferencias y hangouts que dado las veras abajo:</p>
   <ul class="timeline">
+    {% for talk in site.talks %}
     <li>
       <div class="point">
-        <time datetime="2013-04-10 18:30">
-          <span>04/10/13</span>
+        <time datetime="{{ talk.date }}">
+          <span>{{ talk.date | date: "%d/%m/%y"  }}</span>
         </time>
-        <div class="icon"><i class="icon-facebook"></i></div>
+        <div class="icon"><i class="icon-{{talk.type}}"></i></div>
       </div>
       <article>
-        <small class="type">meetup</small>
-        <h2>meetup</h2>
+        <small class="type">{{talk.type}}</small>
+        <h2>{{talk.title}}</h2>
+        <div class="item location"><i class="icon-location"></i> {{talk.location}}</div>
+        {% if talk.image %}
         <figure>
-          <amp-img on="tap:lightbox" role="button" tabindex="0" src="https://a248.e.akamai.net/secure.meetupstatic.com/photos/event/1/0/b/1/highres_443644273.jpeg" alt="nicobytes" width="496" height="256" layout="responsive"></amp-img>
-          <figcaption>Border Collie.</figcaption>
+          <amp-img on="tap:lightbox" role="button" tabindex="0" src="{{talk.image.url}}" alt="nicobytes" width="{{talk.image.width}}" height="{{talk.image.height}}" layout="responsive"></amp-img>
+          <figcaption>{{talk.title}}</figcaption>
         </figure>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae temporibus iusto cum ullam officia vitae reiciendis quisquam delectus nesciunt doloremque nam quia esse odio assumenda iste eos sint, eius. Animi!</p>
-        <div class="item"><i class="icon-facebook"></i> La paz, Bolivia</div>
-        <a href="" class="item">Slides</a>
+        {% endif %}
+        {% if talk.youtube %}<amp-youtube width="480" height="270" layout=responsive data-videoid="{{talk.youtube}}"> </amp-youtube>{% endif %}
+        {% if talk.tweet %}<amp-twitter width="375" height="472" layout="responsive" data-tweetid="{{talk.tweet}}"></amp-twitter>{% endif %}
+        <p>{{ talk.text }}</p>
+        {% if talk.slides %}<a href="{{talk.slides}}" target="_blank" class="item"><i class="icon-slides"></i> Slides</a>{% endif %}
       </article>
     </li>
-    <li>
-      <div class="point">
-        <time datetime="2013-04-10 18:30">
-          <span>04/10/13</span>
-        </time>
-        <div class="icon"><i class="icon-facebook"></i></div>
-      </div>
-      <article>
-        <small class="type">meetup</small>
-        <h2>meetup</h2>
-        <figure>
-          <amp-img on="tap:lightbox" role="button" tabindex="0" src="https://a248.e.akamai.net/secure.meetupstatic.com/photos/event/1/0/b/1/highres_443644273.jpeg" alt="nicobytes" width="496" height="256" layout="responsive"></amp-img>
-          <figcaption>Border Collie.</figcaption>
-        </figure>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae temporibus iusto cum ullam officia vitae reiciendis quisquam delectus nesciunt doloremque nam quia esse odio assumenda iste eos sint, eius. Animi!</p>
-        <div class="item"><i class="icon-facebook"></i> La paz, Bolivia</div>
-        <a href="" class="item">Slides</a>
-      </article>
-    </li>
+    {% endfor %}
   </ul>
 </section>
