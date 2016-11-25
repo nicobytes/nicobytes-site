@@ -48,6 +48,16 @@ social:
     icon: "stack-overflow"
 
 talks:
+  - title: "Capacitación Ionic 2 a CorpoIca"
+    type: 'course'
+    text: 'Capacitación al grupo de ingeniería para la implementacion de Ionic 2 en los procesos de la compañia.'
+    slides: 'http://www.nicobytes.com/course-ionic2/'
+    image:
+      url: 'images/time26.jpg'
+      width: 800
+      height: 598
+    date: '2016-11-18'
+    location: 'Mosquera, Colombia' 
   - title: "Contruyendo sitios con Jekyll"
     type: 'meetup'
     text: 'Jekyll is un proyecto libre y basado en ruby, que nos permite crear geniales sitios fácilmente. Es fácil de usar y extremadamente rápido para construir sitios. Millones de personas lo usan y tiene conexión directa con GitHub Pages. En el meetup aprenderás como funciona y poner en marcha un sitio con Jekyll. '
@@ -64,6 +74,16 @@ talks:
     slides: 'http://slides.com/nicobytes/angular-2'
     youtube: 't4mrvzyHgRc'
     date: '2016-11-17'
+    location: 'Bogotá, Colombia'
+  - title: "Consultaria Ionic 2 a KnarSAS"
+    type: 'course'
+    text: 'Consultaria en la implementacion de Ionic 2 en los procesos de la compañia.'
+    slides: 'http://slides.com/nicobytes/ionic-2-firebase-3'
+    image:
+      url: 'images/time25.jpg'
+      width: 800
+      height: 600
+    date: '2016-11-14'
     location: 'Bogotá, Colombia'
   - title: "Firebase 3 + Ionic 2"
     type: 'meetup'
