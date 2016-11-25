@@ -101,6 +101,7 @@ talks:
     slides: 'http://www.nicobytes.com/ionic-v2-slides'
     youtube: '5iHCYN5frBc'
     date: '2016-10-28'
+    location: 'Bogotá, Colombia'
   - title: "¿Qué es una HybridApp? Ionic 2 #devHangout 175 con @nicobytes"
     type: 'youtube'
     text: "Nicolas Molina Monroy, desarrollador web especializado en el área de FrontEnd & HybripApps."
