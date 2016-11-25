@@ -48,21 +48,123 @@ social:
     icon: "stack-overflow"
 
 talks:
+  - title: "Contruyendo sitios con Jekyll"
+    type: 'meetup'
+    text: 'Jekyll is un proyecto libre y basado en ruby, que nos permite crear geniales sitios fácilmente. Es fácil de usar y extremadamente rápido para construir sitios. Millones de personas lo usan y tiene conexión directa con GitHub Pages. En el meetup aprenderás como funciona y poner en marcha un sitio con Jekyll. '
+    slides: 'https://drive.google.com/open?id=1GaQp1yVRjAa1jmBeWSRl7wC03rjJ0ZRaeysVM3-P3oQ'
+    image:
+      url: 'images/time17.jpeg'
+      width: 800
+      height: 578
+    date: '2016-11-17'
+    location: 'Bogotá, Colombia'
+  - title: "#Angular 2 con Nicolás Molina @Nicobytes"
+    type: 'youtube'
+    text: 'Nicolas Molina (@Nicobytes) es desarrollador web especializado en el área de #FrontEnd & #HybripApps, enfocado en aprendizaje de #JS y al desarrollo de apps con #Angular2 y #Ionic2.'
+    slides: 'http://slides.com/nicobytes/angular-2'
+    youtube: 't4mrvzyHgRc'
+    date: '2016-11-17'
+    location: 'Bogotá, Colombia'
   - title: "Firebase 3 + Ionic 2"
     type: 'meetup'
-    slides: ''
-    cover: ''
+    text: 'Meetup sobre la integración de Firebase 3 + Ionic 2, en esta ocasión hablaremos haremos la integración de una app con Ionic 2 con Firebase Database y Firebase Auth.'
+    slides: 'http://slides.com/nicobytes/ionic-2-firebase-3'
+    image:
+      url: 'images/time18.jpg'
+      width: 800
+      height: 539
     date: '2016-11-11'
-    location: 'Bogota, Colombia'
+    location: 'Bogotá, Colombia'
+  - title: "¿Que son las PWA (Progressive web apps)?"
+    type: 'conf'
+    text: "Progressive Web Apps promovido por Google, que plantea una arquitectura eficiente y de baja fricción para crear aplicaciones web que brindan experiencias de usuario app-like, como push notifications, uso offline, y posibilidad de instalación en vez de bookmark."
+    slides: 'https://drive.google.com/open?id=1EzhZW8_qb2s9RBUh479WLWcPrliqYRZRLr-vjy8H_8w'
+    image:
+      url: 'images/time19.jpg'
+      width: 800
+      height: 602
+    date: '2016-10-26'
+    location: 'Manizales, Colombia'
+  - title: "Construyendo apps con Ionic 2"
+    type: 'workshop'
+    text: "Vamos a construir una aplicación para Android y IOS con Ionic 2. En este workshop aprenderás como iniciar un proyecto con Ionic y usar los recursos nativos como Camara, Geolocation etc. Al finalizar el wrokshop tendrás una app lista en Android y IOS con una sola base de código."
+    slides: 'http://www.nicobytes.com/ionic-v2-slides'
+    image:
+      url: 'images/time20.jpg'
+      width: 800
+      height: 731
+    date: '2016-10-25'
+    location: 'Manizales, Colombia'
+  - title: "JsConfCo: Building your first mobile app with IonicV2 / Angular2"
+    type: 'workshop'
+    text: "Let's meet together for a workshop to build a mobile app with ionicV2 . In this workshop you will learn how to start a new Ionic project, create and style multiple views, add a backend(Firebase), build app for Android or IOS, and use Cordova plugins like Camera, Geolocation etc. By the end of the workshop, you will have built a useful, mature, mobile app that is ready for app store submission."
+    slides: 'http://www.nicobytes.com/ionic-v2-slides'
+    image:
+      url: 'images/time21.jpg'
+      width: 800
+      height: 550
+    tweet: '785482004108349440'
+    date: '2016-10-11'
+    location: 'Medellin, Colombia'
+  - title: "Ecmascript 6 + Typescript + Ionic 2"
+    type: 'meetup'
+    text: 'Meetup sobre la integración de Ecmascript 6 y Ionic 2, ES6 (Ecmascript 6), es la nueva version del lenguaje de Javascipt y las podemos usar en Ionic 2 gracias a Typescript.'
+    slides: 'http://www.ion-book.com/news/es6-ionic-2'
+    image:
+      url: 'http://i.cubeupload.com/kYzZHh.png'
+      width: 1024
+      height: 450
+    date: '2016-09-10'
+    location: 'Bogotá, Colombia'
+  - title: "Introducción a Ionic 2 & Angular 2"
+    type: 'meetup'
+    text: 'Nuestro próximo meetup sobre lo nuevo de ionic 2. Recuerden que ionic es un framework, open source, para desarrollaraplicaciones nativas (Android, IOS, WP, etc) y progressive web apps.'
+    slides: 'http://www.nicobytes.com/ionic-v2-slides'
+    image:
+      url: 'images/time22.jpg'
+      width: 800
+      height: 597
+    date: '2016-08-15'
+    location: 'Cali, Colombia'
+  - title: "Introducción a Ionic 2"
+    type: 'meetup'
+    text: 'Nuestro próximo meetup sobre lo nuevo de ionic 2. Recuerden que ionic es un framework, open source, para desarrollaraplicaciones nativas (Android, IOS, WP, etc) y progressive web apps.'
+    slides: 'http://www.nicobytes.com/ionic-v2-slides'
+    image:
+      url: 'images/time23.jpg'
+      width: 800
+      height: 516
+    date: '2016-08-09'
+    location: 'Medellin, Colombia'
+  - title: "Ionic 2 VS Native Script VS React Native"
+    type: 'meetup'
+    text: 'AMP Project es una tecnología de google para optimizar websites enfocados a marketing de contenido.'
+    slides: 'http://slides.com/nicobytes/deck-10'
+    image:
+      url: 'images/time16.jpeg'
+      width: 800
+      height: 434
+    date: '2016-08-19'
+    location: 'Bogotá, Colombia'
   - title: "AMP Project"
     type: 'conf'
-    text: 'AMP Project es una tecnología de google para optimizar website enfocados a marketing de contenido.'
+    text: 'AMP Project es una tecnología de google para optimizar websites enfocados a marketing de contenido.'
     slides: 'https://drive.google.com/open?id=1i8h9RyEtdVYqUChGz0YOJutjkAgquwVPVEPk0QfQCc0'
     image:
       url: 'images/time15.jpg'
       width: 1325
       height: 883
-    date: '2016-06-13'
+    date: '2016-08-09'
+    location: 'Bogotá, Colombia'
+  - title: "Curso Ionic 2 en EscuelaIT"
+    type: 'course'
+    text: 'En el curso de Ionic V2 veremos cómo desarrollar apps para múltiples plataformas: Android, iOS, Windows, usando la misma base de código, gracias al SDK que nos provee el framework. A lo largo de las sesiones del curso veremos sus principales características, componentes, conexiones a REST y acceso a componentes nativos como Cámara, Acelerómetro, Geolocalización, etc... hasta la distribución de la aplicación en tiendas como Google Play o App Store.'
+    slides: 'http://escuela.it/cursos/curso-ionic-v2/'
+    image:
+      url: 'images/time24.jpg'
+      width: 750
+      height: 422
+    date: '2016-08-01'
     location: 'Bogotá, Colombia'
   - title: "Introducción a Ionic 2"
     type: 'meetup'
@@ -72,7 +174,14 @@ talks:
       url: 'images/time14.jpg'
       width: 2592
       height: 1936
-    date: '2016-06-13'
+    date: '2016-07-13'
+    location: 'Bogotá, Colombia'
+  - title: "Ionic v2 por la práctica"
+    type: 'youtube'
+    text: 'Primeros pasos en la práctica de la versión 2 del framework Ionic para desarrollar aplicaciones para Android, IOS y Windows con una sola base de código..'
+    slides: 'http://www.nicobytes.com/ionic-v2-slides'
+    youtube: '6RLv5ovnTsc'
+    date: '2016-07-13'
     location: 'Bogotá, Colombia'
   - title: "Introducción a Ionic 2"
     type: 'youtube'
