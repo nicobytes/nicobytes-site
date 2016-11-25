@@ -54,59 +54,118 @@ talks:
     cover: ''
     date: '2016-11-11'
     location: 'Bogota, Colombia'
-  - title: "Ecmascript 6 + Typescript + Ionic 2"
-    type: 'meetup'
-    slides: ''
-    cover: ''
-    date: '2016-11-11'
-    location: 'Bogota, Colombia'
-  - title: "Introducción a Ionic2 & Angular2"
-    type: 'meetup'
-    slides: ''
-    cover: ''
-    date: '2016-09-15'
-    location: 'Cali, Colombia'
+  - title: "AMP Project"
+    type: 'conf'
+    text: 'AMP Project es una tecnología de google para optimizar website enfocados a marketing de contenido.'
+    slides: 'https://drive.google.com/open?id=1i8h9RyEtdVYqUChGz0YOJutjkAgquwVPVEPk0QfQCc0'
+    image:
+      url: 'images/time15.jpg'
+      width: 1325
+      height: 883
+    date: '2016-06-13'
+    location: 'Bogotá, Colombia'
   - title: "Introducción a Ionic 2"
     type: 'meetup'
-    slides: ''
-    cover: ''
-    date: '2016-09-09'
-    location: 'Medellin, Colombia'
-  - title: "Ionic 2 VS Native Script VS React Native"
-    type: 'meetup'
-    slides: ''
-    cover: ''
-    date: '2016-08-19'
-    location: 'Medellin, Colombia'
-  - title: "Crosswalk-project"
-    type: 'meetup'
-    slides: ''
-    cover: ''
-    date: '2016-07-13'
-    location: 'Medellin, Colombia'
+    text: 'Todo lo que necesitas saber para comenzar en Ionic 2.'
+    slides: 'http://www.nicobytes.com/ionic-v2-slides'
+    image:
+      url: 'images/time14.jpg'
+      width: 2592
+      height: 1936
+    date: '2016-06-13'
+    location: 'Bogotá, Colombia'
   - title: "Introducción a Ionic 2"
-    type: 'meetup'
-    slides: ''
-    cover: ''
-    date: '2016-07-13'
-    location: 'Medellin, Colombia'
-  - title: "Ionic Cbba"
-    type: 'meetup'
-    slides: ''
-    cover: ''
-    date: '2016-05-13'
+    type: 'youtube'
+    text: 'Todo lo que necesitas saber para comenzar en Ionic 2.'
+    slides: 'http://www.nicobytes.com/ionic-v2-slides'
+    youtube: 'kWZcdgLbWQI'
+    date: '2016-06-13'
+    location: 'Viña del Mar, Chile'
+  - title: "Curso de Ionic 1"
+    type: 'course'
+    text: 'Curso completo de ionic 1 para la <strong>Universidad Mayor de San Simon</strong>'
+    image:
+      url: 'images/time13.jpg'
+      width: 960
+      height: 540
+    date: '2016-05-23'
     location: 'Cochabamba, Bolivia'
-  - title: "Ionic Workshop"
+  - title: "FreelanceDay, Cochabamba"
+    type: 'conf'
+    text: 'Ven y conoce sobre las mejores prácticas para alcanzar tu potencial a nivel mundial, trabajar con las mejores empresas del mundo desde donde tu quieras, además descubre las tecnologías que están cambiando el mundo de la mano de los mejores..'
+    slides: 'http://www.nicobytes.com/ionic-slides'
+    image:
+      url: 'images/time12.jpg'
+      width: 960
+      height: 540
+    date: '2016-05-14'
+    location: 'Cochabamba, Bolivia'
+  - title: "FreelanceDay, La Paz"
+    type: 'conf'
+    text: 'Ven y conoce sobre las mejores prácticas para alcanzar tu potencial a nivel mundial, trabajar con las mejores empresas del mundo desde donde tu quieras, además descubre las tecnologías que están cambiando el mundo de la mano de los mejores..'
+    slides: 'http://www.nicobytes.com/ionic-slides'
+    image:
+      url: 'images/time11.jpg'
+      width: 1280
+      height: 853
+    date: '2016-05-07'
+    location: 'La Paz, Bolivia'
+  - title: "Ionic 1"
     type: 'workshop'
-    slides: ''
-    cover: ''
+    text: 'Siguiendo con el workshop haremos una aplicación en live code, donde aprenderemos los principales componentes de ionic framework y su uso.'
+    slides: 'http://slides.com/nicobytes/ionic-workshop'
+    image:
+      url: 'images/time10.jpg'
+      width: 2048
+      height: 1536
+    date: '2016-04-30'
+    location: 'Cochabamba, Bolivia'
+  - title: "Ionic 1"
+    type: 'workshop'
+    text: 'Siguiendo con el workshop haremos una aplicación en live code, donde aprenderemos los principales componentes de ionic framework y su uso.'
+    slides: 'http://slides.com/nicobytes/ionic-workshop'
+    image:
+      url: 'images/time9.jpg'
+      width: 960
+      height: 540
+    date: '2016-04-16'
+    location: 'Cochabamba, Bolivia'
+  - title: "Ionic Cochabamba"
+    type: 'meetup'
+    text: 'Desarrollo de aplicaciones híbridas con ionic desarrollo multiplataforma con la misma base de código.'
+    slides: 'http://www.nicobytes.com/ionic-slides'
+    image:
+      url: 'images/time8.jpg'
+      width: 1280
+      height: 768
+    date: '2016-04-13'
+    location: 'Cochabamba, Bolivia'
+  - title: "Workshop: Ionic 1"
+    type: 'workshop'
+    text: 'Siguiendo con el workshop haremos una aplicación en live code, donde aprenderemos los principales componentes de ionic framework y su uso.'
+    slides: 'http://slides.com/nicobytes/ionic-workshop'
+    image:
+      url: 'images/time7.jpg'
+      width: 2048
+      height: 1536
     date: '2016-04-09'
+    location: 'La Paz, Bolivia'
+  - title: "Conoce Ionic 2"
+    type: 'youtube'
+    text: 'En este hangout vamos a presentar la nueva versión del framework para el desarrollo de aplicaciones híbridas, Ionic. Es una excelente opción para el desarrollo de webapss que funcionan en todos los dispositivos. '
+    slides: 'http://www.nicobytes.com/ionic-v2-slides'
+    youtube: 'KgKo0BwHG34'
+    date: '2016-04-05'
     location: 'La Paz, Bolivia'
   - title: "Ionic GDG La Paz"
     type: 'meetup'
-    slides: ''
-    cover: ''
-    date: '2016-03-25'
+    text: 'Desarrollo de aplicaciones híbridas con ionic desarrollo multiplataforma con la misma base de código.'
+    slides: 'http://www.nicobytes.com/ionic-slides/'
+    image:
+      url: 'images/time6.jpg'
+      width: 667
+      height: 500
+    date: '2016-03-24'
     location: 'La Paz, Bolivia'
   - title: "IonicDay"
     type: 'workshop'
