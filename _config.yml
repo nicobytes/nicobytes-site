@@ -95,6 +95,30 @@ talks:
       height: 539
     date: '2016-11-11'
     location: 'Bogotá, Colombia'
+  - title: "¿Qué es una HybridApp? Ionic 2 #devHangout 175 con @nicobytes"
+    type: 'youtube'
+    text: "Nicolas Molina Monroy, desarrollador web especializado en el área de FrontEnd & HybripApps."
+    slides: 'http://www.nicobytes.com/ionic-v2-slides'
+    youtube: '5iHCYN5frBc'
+    date: '2016-10-28'
+  - title: "¿Qué es una HybridApp? Ionic 2 #devHangout 175 con @nicobytes"
+    type: 'youtube'
+    text: "Nicolas Molina Monroy, desarrollador web especializado en el área de FrontEnd & HybripApps."
+    slides: 'http://www.nicobytes.com/ionic-v2-slides'
+    youtube: '5iHCYN5frBc'
+    date: '2016-10-28'
+  - title: "Objetivos de Ionic 2 #devHangout 175 con @nicobytes"
+    type: 'youtube'
+    text: "Nicolas Molina Monroy, desarrollador web especializado en el área de FrontEnd & HybripApps."
+    slides: 'http://www.nicobytes.com/ionic-v2-slides'
+    youtube: 'm6TLH7CPs6c'
+    date: '2016-10-28'
+  - title: "Beneficios de Ionic 2, nuevos conceptos ES6 #devHangout 175 con @nicobytes"
+    type: 'youtube'
+    text: "Nicolas Molina Monroy, desarrollador web especializado en el área de FrontEnd & HybripApps."
+    slides: 'http://www.nicobytes.com/ionic-v2-slides'
+    youtube: 'qzzhw56SIyM'
+    date: '2016-10-28'
   - title: "¿Que son las PWA (Progressive web apps)?"
     type: 'conf'
     text: "Progressive Web Apps promovido por Google, que plantea una arquitectura eficiente y de baja fricción para crear aplicaciones web que brindan experiencias de usuario app-like, como push notifications, uso offline, y posibilidad de instalación en vez de bookmark."
