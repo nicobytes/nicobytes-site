@@ -1,14 +1,22 @@
 <!DOCTYPE html>
-<html>
-  {% include head.html %}
+<html amp lang="en">{% include head.html %}
   <body>
-    {% include nav.html %}
-    
-    {{ content }}
-    {% comment %}
-    {% include footer.html %}
-    {% endcomment %}
-    
-    {% include js.html %}
+    <amp-image-lightbox id="lightbox" layout="nodisplay"></amp-image-lightbox>
+    {% include sidebar.html %} {% include nav.html %} {{ content }}
+    <amp-analytics type="googleanalytics" id="analytics-ga">
+    <script type="application/json">
+    {
+      "vars": {
+        "account": "UA-78905438-1"
+      },
+      "triggers": {
+        "trackPageview": {
+          "on": "visible",
+          "request": "pageview"
+        }
+      }
+    }
+    </script>
+    </amp-analytics>
   </body>
 </html>

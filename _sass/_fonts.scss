@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "nicobytes";
+  src:url("../fonts/nicobytes.eot");
+  src:url("../fonts/nicobytes.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/nicobytes.woff") format("woff"),
+    url("../fonts/nicobytes.ttf") format("truetype"),
+    url("../fonts/nicobytes.svg#nicobytes") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "nicobytes";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-twitter:before {
+  content: "\e000";
+}
+.icon-linkedin:before {
+  content: "\e001";
+}
+.icon-github:before {
+  content: "\e002";
+}
+.icon-facebook:before {
+  content: "\e003";
+}
+.icon-medium:before {
+  content: "\e004";
+}
+.icon-stack-overflow:before {
+  content: "\e005";
+}
+.icon-instagram:before {
+  content: "\e006";
+}

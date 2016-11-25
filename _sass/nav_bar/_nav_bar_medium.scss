@@ -1,12 +1,21 @@
 @media screen and (min-width: 40em) and (max-width: 63.9375em) {
-  .navbar{
-    img.logo{
-      max-height: 50px;
-      position: relative;
-      top: -16px;
-    }
-    &.navbar-default {
-      line-height: 10vh;
+  #navbar {
+    nav{
+      width: 90%;
+      margin: 0 auto;
+      .left-nav{
+        .title{
+          padding-left: 0px;
+        }
+      }
+      .right-nav{
+        div.tab{
+          display: block;
+        }
+        button.menu{
+          display: none;
+        }
+      }
     }
   }
 }

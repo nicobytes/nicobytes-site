@@ -1,0 +1,27 @@
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+  section.timeline{
+    > ul{
+      &:before{
+        display: block;
+        top: 45px;
+      }
+      > li{
+        display: flex;
+        align-items: baseline;
+        .point{
+          width: 160px;
+          display: inline-flex;
+        }
+        article{
+          margin-left: 50px;
+          &:before{
+            border-right-color: $nb-color-primary;
+            border-bottom-color: transparent;
+            top: 15px;
+            left: -20px;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,68 +1,78 @@
-#cover-home {
-	min-height: 0px;
-  background-size: 100%;
-  h1{
-    margin-bottom: 0px;
-  }
-  h1 + h3{
-    margin: 0px;
-  }
-  .container .bio{
+#cover-home{
+  .container{
     background: white;
-    color: black;
-    padding: 30px;
-  }
-  .greet{
-    margin-top: 10px;
-    padding: 5px 20px;
-    background-color: $nb-color-primary;
-    color: white;
-    display: inline-block;
-    position: relative;
-    &:before{
-      width: 0px;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    box-shadow: 0px 6px 20px rgba(black, .5);
+    hr{
       height: 0px;
-      border: 15px solid transparent;
-      border-left-color: $nb-color-primary;
-      content: '';
+      border: 1px solid #ccc;
+      margin: 0px;
+    }
+    .row{
       display: block;
-      position: absolute;
-      bottom: -15px;
-      left:10px;
+      padding: 16px;
+      box-sizing: border-box;
+      .photo{
+        width: 100%;
+      }
+      .bio{
+        width: 100%;
+        h3{
+          font-weight: lighter;
+        }
+        h1{
+          a{
+            color: $nb-color-primary;
+            text-decoration: none;
+          }
+        }
+        .tag{
+          color: white;
+          background: #4c8cf4;
+          padding: 2px 5px;
+          border-radius: 2px;
+          text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+        }
+        .greet{
+          margin-top: 10px;
+          padding: 5px 20px;
+          background-color: $nb-color-primary;
+          color: white;
+          display: inline-block;
+          position: relative;
+          &:before{
+            width: 0px;
+            height: 0px;
+            border: 15px solid transparent;
+            border-left-color: $nb-color-primary;
+            content: '';
+            display: block;
+            position: absolute;
+            bottom: -15px;
+            left:10px;
+          }
+        }
+      }
     }
-  }
-  .social{
-    background-color: $nb-color-primary;
-    padding: 20px 30px;
-    box-shadow: 0px 7px 12px rgba(0,0,0,.5);
-    a{
-      color: white;
-    }
-  }
-  span.tag{
-    color: white;
-    background: $nb-color-primary;
-    padding: 2px 5px;
-    border-radius: 2px;
-    text-shadow: 0px 1px 1px rgba(0,0,0,.5);
-  }
-  p{
-    font-size: 16px;
-  }
-  .scroll{
-    color: white;
-    text-align: center;
-    font-size: 12px;
-    line-height: 0px;
-    margin: 0px;
-    margin-top: 10px;
-    i{
-      font-size: 50px;
+    .social{
+      background-color: $nb-color-primary;
+      width: 100%;
+      box-sizing: border-box;
+      padding: 16px 32px;
+      a{
+        &:first-child{
+          padding-left: 0px;
+        }
+        padding: 16px;
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+      }
     }
   }
 }
-
 @import
-"cover_home_small",
 "cover_home_medium",
 "cover_home_large";

@@ -1,10 +1,25 @@
 @media screen and (min-width: 40em) and (max-width: 63.9375em) {
-  #cover-home {
-	  padding: 50px 0px;
-    background-image: url('../images/background.png');
-    background-size: cover;
-    .greet{
-      margin-top: 0px;
+  #cover-home{
+    .container{
+      margin-top: 20px;
+      width: 90%;
+      .row{
+        display: flex;
+        padding: 32px;
+        .photo{
+          width: 40%;
+          padding-right: 16px;
+        }
+        .bio{
+          width: 60%;
+          .greet{
+            margin-top: 0px;
+          }
+          h3{
+            margin-bottom: 0px;
+          }
+        }
+      }
     }
   }
 }

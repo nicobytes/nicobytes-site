@@ -1,0 +1,24 @@
+<section class="section" id="cover-home">
+  <div class="container">
+    <div class="row">
+      <div class="photo">
+        <amp-img src="images/photo.jpg" alt="nicobytes" width="810" height="810" layout="responsive"></amp-img>
+      </div>
+      <div class="bio">
+        <span class="greet">¡Hola!</span>
+        <h1>Soy Nicolas Molina <small>(@nicobytes)</small><a class="btn" href="{{ site.twitter }}" target="_blank">
+            <i class="icon-twitter"></i>
+          </a></h1>
+        <h3>Desarrollador Front-end & Mobile Apps</h3>
+        <hr/>
+        <p>Soy desarrollador web especializado en el área de <span class="tag">#FrontEnd</span> & <span class="tag">#HybripApps</span>, enfocado en aprendizaje de <span class="tag">#JS</span> y al desarrollo de apps con <span class="tag">#Angular2</span> y <span class="tag">#Ionic2</span>.</p>
+        <p>Mis pasiones son el desarrollo de productos, compartir con las <span class="tag">#comunidades</span> de desarrollo y <span class="tag">#viajar</span> por todo el mundo.</p>
+      </div>
+    </div>
+    <div class="social">{% for social in site.social %}
+      <a href="{{ social.link }}" target="_blank">
+        <i class="icon-{{ social.icon }} fa-2x"></i>
+      </a>{% endfor %}
+    </div>
+  </div>
+</section>
