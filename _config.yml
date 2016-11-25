@@ -58,7 +58,7 @@ talks:
       height: 598
     date: '2016-11-18'
     location: 'Mosquera, Colombia' 
-  - title: "Contruyendo sitios con Jekyll"
+  - title: "Construyendo sitios con Jekyll"
     type: 'meetup'
     text: 'Jekyll is un proyecto libre y basado en ruby, que nos permite crear geniales sitios fácilmente. Es fácil de usar y extremadamente rápido para construir sitios. Millones de personas lo usan y tiene conexión directa con GitHub Pages. En el meetup aprenderás como funciona y poner en marcha un sitio con Jekyll. '
     slides: 'https://drive.google.com/open?id=1GaQp1yVRjAa1jmBeWSRl7wC03rjJ0ZRaeysVM3-P3oQ'
