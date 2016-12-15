@@ -48,6 +48,26 @@ social:
     icon: "stack-overflow"
 
 talks:
+  - title: "Capacitación Ionic 2 a ServiGenerales"
+    type: 'course'
+    text: 'Consultaria en la implementacion de Ionic 2 en los procesos de la compañia.'
+    image:
+      url: 'images/time28.jpg'
+      width: 1200
+      height: 938
+    date: '2016-12-12'
+    location: 'Bogotá, Colombia'
+  - title: "Mentor en DjangoGirls Cali"
+    type: 'conf'
+    text: 'Taller gratuito de programación enfocado en las mujeres, Creá tu primer sitio web utilizando Django y Python.
+En Cali, el 9 y 10 de Diciembre de 2016.'
+    slides: 'https://djangogirls.org/cali/'
+    image:
+      url: 'images/time27.jpg'
+      width: 1080
+      height: 528
+    date: '2016-12-10'
+    location: 'Cali, Colombia'
   - title: "Capacitación Ionic 2 a CorpoIca"
     type: 'course'
     text: 'Capacitación al grupo de ingeniería para la implementacion de Ionic 2 en los procesos de la compañia.'
@@ -94,13 +114,6 @@ talks:
       width: 800
       height: 539
     date: '2016-11-11'
-    location: 'Bogotá, Colombia'
-  - title: "¿Qué es una HybridApp? Ionic 2 #devHangout 175 con @nicobytes"
-    type: 'youtube'
-    text: "Nicolas Molina Monroy, desarrollador web especializado en el área de FrontEnd & HybripApps."
-    slides: 'http://www.nicobytes.com/ionic-v2-slides'
-    youtube: '5iHCYN5frBc'
-    date: '2016-10-28'
     location: 'Bogotá, Colombia'
   - title: "¿Qué es una HybridApp? Ionic 2 #devHangout 175 con @nicobytes"
     type: 'youtube'
