@@ -40,14 +40,93 @@ social:
     icon: "github"
   - link: "https://co.linkedin.com/in/nicobytes"
     icon: "linkedin"
-  - link: "https://www.instagram.com/nicobytes/"
-    icon: "instagram"
-  - link: "https://www.facebook.com/nicolas.molina.127"
-    icon: "facebook"
   - link: "http://stackoverflow.com/users/6420164/nicolas-molina"
     icon: "stack-overflow"
 
 talks:
+
+  - title: "ion-hangouts #2 [Jorge Cano @jorgeucano] : Ionic y NativeScript"
+    type: 'youtube'
+    text: "Ionic vs Nativescript"
+    slides: 'https://www.youtube.com/watch?v=-kmvghV2CGo'
+    youtube: '-kmvghV2CGo'
+    date: '2017-04-20'
+    location: 'Lima, Perú'
+
+  - title: "Workshop Ionic - Angular Day"
+    type: 'workshop'
+    text: 'Vamos a construir una aplicación para Android y IOS con Ionic. En este workshop aprenderás como iniciar un proyecto con Ionic y usar los recursos nativos como Camara, Geolocation etc. Al finalizar el wrokshop tendrás una app lista en Android y IOS con una sola base de código.'
+    slides: 'http://escuela.it/cursos/curso-ionic-v2/'
+    image:
+      url: 'images/time36.jpg'
+      width: 2048
+      height: 1152
+    date: '2017-02-29'
+    location: 'Cochabamba, Bolivia'
+
+  - title: "Curso Ionic - Universidad Mayor de San Simon"
+    type: 'course'
+    text: 'En el curso de Ionic veremos cómo desarrollar apps para múltiples plataformas: Android, iOS, Windows, usando la misma base de código, gracias al SDK que nos provee el framework. A lo largo de las sesiones del curso veremos sus principales características, componentes, conexiones a REST y acceso a componentes nativos como Cámara, Acelerómetro, Geolocalización, etc... hasta la distribución de la aplicación en tiendas como Google Play o App Store.'
+    slides: 'http://escuela.it/cursos/curso-ionic-v2/'
+    image:
+      url: 'images/time37.JPG'
+      width: 1000
+      height: 750
+    date: '2017-04-28'
+    location: 'Cochabamba, Bolivia'
+
+  - title: "Progressive Web Apps en Flisol Bolivia"
+    type: 'conf'
+    text: 'Progressive Web Apps promovido por Google, que plantea una arquitectura eficiente y de baja fricción para crear aplicaciones web que brindan experiencias de usuario app-like, como push notifications, uso offline, y posibilidad de instalación en vez de bookmark.'
+    slides: 'http://escuela.it/cursos/curso-ionic-v2/'
+    image:
+      url: 'images/time35.jpeg'
+      width: 2048
+      height: 1536
+    date: '2017-04-22'
+    location: 'Cochabamba, Bolivia'
+
+  - title: "ion-hangouts #1 [German Hernandez @muygrafico] : Ionic vs React Native vs Nativescript"
+    type: 'youtube'
+    text: "Ionic vs React Native vs Nativescript"
+    slides: 'https://www.youtube.com/watch?v=cazi3h8oee8'
+    youtube: 'cazi3h8oee8'
+    date: '2017-04-20'
+    location: 'Cochabamba, Bolivia'
+
+  - title: "Curso Ionic - Minera san cristobal"
+    type: 'course'
+    text: 'En el curso de Ionic veremos cómo desarrollar apps para múltiples plataformas: Android, iOS, Windows, usando la misma base de código, gracias al SDK que nos provee el framework. A lo largo de las sesiones del curso veremos sus principales características, componentes, conexiones a REST y acceso a componentes nativos como Cámara, Acelerómetro, Geolocalización, etc... hasta la distribución de la aplicación en tiendas como Google Play o App Store.'
+    slides: 'http://www.nicobytes.com/course-ionic2/'
+    image:
+      url: 'images/time34.jpg'
+      width: 2048
+      height: 1152
+    date: '2017-04-07'
+    location: 'La Paz, Bolivia'
+
+  - title: "Ionic Vs React Native Vs NativeScript"
+    type: 'meetup'
+    text: 'Los invitamos a conocer más sobre estas muy interesantes tecnologías, lo que tienen en común, sus diferencias, ventajas y desventajas. Vamos a enfocarnos en mirar las diferencias entre nativeScript y reactNative ya que ionic realmente es algo diferente (un webView) y no sería muy justo comparar “peras“ y “manzanas“.'
+    slides: 'http://www.nicobytes.com/course-ionic2/'
+    image:
+      url: 'images/time38.png'
+      width: 1200
+      height: 1200
+    date: '2017-03-15'
+    location: 'La Paz, Bolivia'
+
+  - title: "Curso Ionic en EscuelaIT (Segunda edición)"
+    type: 'course'
+    text: 'En el curso de Ionic veremos cómo desarrollar apps para múltiples plataformas: Android, iOS, Windows, usando la misma base de código, gracias al SDK que nos provee el framework. A lo largo de las sesiones del curso veremos sus principales características, componentes, conexiones a REST y acceso a componentes nativos como Cámara, Acelerómetro, Geolocalización, etc... hasta la distribución de la aplicación en tiendas como Google Play o App Store.'
+    slides: 'http://escuela.it/cursos/curso-ionic-v2/'
+    image:
+      url: 'images/time24.jpg'
+      width: 750
+      height: 422
+    date: '2017-03-05'
+    location: 'Bogotá, Colombia'
+
   - title: "Lanzamiento de Duety"
     type: 'conf'
     text: '¡La única app para jugar con tus Matripuntos!'
