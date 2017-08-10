@@ -21,13 +21,13 @@ sass:
     style: compressed
 
 links:
-  - title: Home
+  - title: 'Inicio'
     url: /
     target: '_self'
-  - title: Blog
+  - title: 'Blog'
     url: 'https://www.ion-book.com/blog/authors/nicobytes/'
     target: '_blank'
-  - title: Talks
+  - title: 'Charlas'
     url: /talks
     target: '_self'
   - title: 'Contáctame'
