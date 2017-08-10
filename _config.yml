@@ -30,6 +30,9 @@ links:
   - title: Talks
     url: /talks
     target: '_self'
+ - title: 'Contáctame'
+    url: 'https://nicobytes.sarahah.com/'
+    target: '_blank'
 
 social:
   - link: "https://medium.com/@nicobytes"
