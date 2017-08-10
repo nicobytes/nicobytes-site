@@ -48,6 +48,73 @@ social:
 
 talks:
 
+  - title: "Introducción a Typescript"
+    type: 'meetup'
+    text: 'Una introducción a los beneficios de typescript y su uso con angular para la comunidad de Microsoft.'
+    image:
+      url: 'https://firebasestorage.googleapis.com/v0/b/nicobytes-7bea8.appspot.com/o/talks%2F20232326_10212922610355891_2055222179071324339_o.jpg?alt=media&token=ec06a10c-7890-4c41-8aab-7f7e27646daf'
+      width: 2048
+      height: 1365
+    date: '2017-07-22'
+    location: 'Cochabamba, Bolivia'
+
+  - title: "Curso de Pruebas unitarias en EscuelaIT"
+    type: 'course'
+    text: 'Aprende a realizar testing de tus aplicaciones desarrolladas con Angular. Conoce las herramientas usadas para realizar las pruebas del software y realiza los primeros pasos para el desarrollo de las pruebas unitarias.'
+    youtube: 'zdRpIqMNuIM'
+    date: '2017-07-05'
+    location: 'Madrid, España'
+
+  - title: "¿Qué son las Progressive Web Apps?"
+    type: 'conf'
+    text: 'Conferencia sobre las ventajas de PWA en el Google IO La Paz.'
+    image:
+      url: 'https://firebasestorage.googleapis.com/v0/b/nicobytes-7bea8.appspot.com/o/talks%2F19105942_10212509248942114_7370288364050114202_n.jpg?alt=media&token=bb0d3b61-424a-4ca3-81c2-44f88f872d38'
+      width: 720
+      height: 442
+    date: '2017-06-18'
+    location: 'La Paz, Bolivia'
+
+  - title: "Debate: Nativo VS Híbrido"
+    type: 'meetup'
+    text: 'Debate sobre el enfoque de las dos metodologías.'
+    image:
+      url: 'https://firebasestorage.googleapis.com/v0/b/nicobytes-7bea8.appspot.com/o/talks%2F19396698_10154517631456218_703332325496287841_n.jpg?alt=media&token=953d1ac0-6914-42b6-8b02-79c951a3f71f'
+      width: 960
+      height: 659
+    date: '2017-06-18'
+    location: 'La Paz Bolivia'
+
+  - title: "GraphQL y Python/Django"
+    type: 'meetup'
+    text: 'Implementación de un webservice con GraphQL y Python/Django (+ Docker)'
+    image:
+      url: 'https://firebasestorage.googleapis.com/v0/b/nicobytes-7bea8.appspot.com/o/talks%2F19105486_10212498389710640_972651623765928503_n.jpg?alt=media&token=5d8b49d6-69b4-4b7b-912d-cb84887d3b6f'
+      width: 720
+      height: 864
+    date: '2017-06-14'
+    location: 'La Paz, Bolivia'
+  
+  - title: "Angular Day: Push notifications with Ionic"
+    type: 'conf'
+    text: 'Implementacion de Ionic push en aplicaciones android.'
+    image:
+      url: 'https://firebasestorage.googleapis.com/v0/b/nicobytes-7bea8.appspot.com/o/talks%2Ftime39.jpg?alt=media&token=f50c5d52-9b67-44fc-82d1-899634c488ac'
+      width: 960
+      height: 720
+    date: '2017-06-10'
+    location: 'Cochabamba, Bolivia'
+
+  - title: "Consultoría Ionic para PIL ANDINA"
+    type: 'course'
+    text: 'Consultaria en la implementacion de Ionic en los procesos de la compañia.'
+    image:
+      url: 'https://firebasestorage.googleapis.com/v0/b/nicobytes-7bea8.appspot.com/o/talks%2F18839871_10212439387395619_4115311463944386282_o.jpg?alt=media&token=f9eaa0f3-6e4e-4c34-9b1f-9f5a018e4462'
+      width: 1080
+      height: 810
+    date: '2017-06-07'
+    location: 'Cochabamba, Bolivia'
+
   - title: "ion-hangouts #2 [Jorge Cano @jorgeucano] : Ionic y NativeScript"
     type: 'youtube'
     text: "Ionic vs Nativescript"
