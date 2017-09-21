@@ -1,0 +1,15 @@
+{
+  "hosting": {
+    "public": "_site",
+    "ignore": [
+      "bower.json",
+      "firebase.json",
+      "Gemfile",
+      "Gemfile.lock",
+      "Rakefile",
+      "CNAME",
+      "README.md",
+      "firebase-debug.log"
+    ]
+  }
+}

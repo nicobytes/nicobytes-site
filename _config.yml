@@ -15,7 +15,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://nicobytes.com" # the base hostname & protocol for your site
 twitter: "https://twitter.com/nicobytes"
 
-permalink: /:categories/:title
+permalink: /:categories/:title/
 
 sass:
     style: compressed
