@@ -47,6 +47,153 @@ social:
     icon: "stack-overflow"
 
 talks:
+  - title: "Redux w/ Angular, Ionic w/ maps."
+    type: 'conf'
+    text: 'Conferencia sobre redux y workshop sobre ionic.'
+    date: '2017-04-03'
+    image:
+      url: 'https://firebasestorage.googleapis.com/v0/b/nicobytes-7bea8.appspot.com/o/talks%2F29749348_10215066416549706_554487993948304341_o.jpg?alt=media&token=1a36520e-98a7-464f-af75-9db486ee37b7'
+      width: 333
+      height: 514
+    location: 'Sucre, Bolivia'
+
+  - title: "Ng-Hangouts #14: Docker e Ionic."
+    type: 'youtube'
+    text: '@nicobytes y Carlos hablaran de Angularfire2.'
+    date: '2018-03-24'
+    youtube: 'qW0rZE6IiOU'
+    location: 'Internet'
+
+  - title: "Curso Ionic 3 para DevCode."
+    type: 'conf'
+    text: 'Trabajamos junto a DevCode creado este curso de Ionic donde clonamos el app de instagram!'
+    date: '2017-03-12'
+    image:
+      url: 'https://firebasestorage.googleapis.com/v0/b/nicobytes-7bea8.appspot.com/o/talks%2F29135954_10214868842250472_3024324959762644992_o.jpg?alt=media&token=907ffbf5-36ef-4970-9148-fcd1f240b18b'
+      width: 873
+      height: 457
+    location: 'Perú'
+
+  - title: "Unit Testing w/ Angular"
+    type: 'conf'
+    text: 'En esta charla veremos como escribir #UnitTests y conocer los indicadores para saber qué partes debemos probar.'
+    date: '2018-03-17'
+    image:
+      url: 'https://firebasestorage.googleapis.com/v0/b/nicobytes-7bea8.appspot.com/o/talks%2F28951254_10214851234450288_9120079443480543232_o.jpg?alt=media&token=44bffa9e-e77c-4d5b-a610-9ab9b4c8dc74'
+      width: 502
+      height: 502
+    location: 'Mdellín, Colombia'
+
+  - title: "GraphQL vs API REST para EscuelaIT"
+    type: 'course'
+    text: 'Comparativa entre dos modelos para el desarrollo de API, como son REST, un modelo consolidado en la industria y GraphQL, una alternativa más nueva que se plantea como mejora y que viene a solucionar problemas tradicionales en el desarrollo de servicios web..'
+    date: '2018-03-13'
+    youtube: 'MY9YHU3FGaQ'
+    location: 'Madrid, España'
+
+  - title: "Ng-Hangouts #13 AngularFire2."
+    type: 'youtube'
+    text: '@nicobytes y Carlos hablaran de Angularfire2.'
+    date: '2018-03-10'
+    youtube: 'om9nBOngPFQ'
+    location: 'Internet'
+
+  - title: "Ng-Hangouts 12 : Web Components (Stencil)."
+    type: 'youtube'
+    text: 'En esta ocasión Carlos y Nico van a estar hablando sobre la evolución de los componentes y su integración en los navegadores.'
+    date: '2018-02-24'
+    youtube: '9E2On02Xwag'
+    location: 'Internet'
+
+  - title: "Ng-Hangout #11 - Google Maps en Ionic."
+    type: 'youtube'
+    text: 'Carlos y Nico van a estar hablando sobre Google Maps'
+    date: '2018-02-08'
+    youtube: 'FUFBU9FQNk'
+    location: 'Internet'
+
+  - title: "Ng-Hangouts #10: Arquitectura en Apps con Angular."
+    type: 'youtube'
+    text: 'Que arquitectura debo seguir para asegurar la mantenibilidad de mi código?'
+    date: '2018-01-24'
+    youtube: 'thYPhYmmCfk'
+    location: 'Internet'
+
+  - title: "Curso de GraphQL para DevCode."
+    type: 'conf'
+    text: 'Lanzamiento del curso de GraphQL en node.'
+    date: '2017-12-11'
+    image:
+      url: 'https://firebasestorage.googleapis.com/v0/b/nicobytes-7bea8.appspot.com/o/talks%2F24993339_10214077002734979_8064879404683303535_n.jpg?alt=media&token=ed9a37bc-d4cf-4d22-88b9-b9e7a3df0577'
+      width: 889
+      height: 374
+    location: 'Perú'
+
+  - title: "Mapas en tiempo real con Ionic + Firebase + Gmaps."
+    type: 'workshop'
+    text: 'Taller para construir apps con mapas.'
+    date: '2017-11-25'
+    image:
+      url: 'https://firebasestorage.googleapis.com/v0/b/nicobytes-7bea8.appspot.com/o/talks%2F23843390_10213931993189831_6887444128335579290_n.jpg?alt=media&token=a1330e53-8189-406a-b5d7-5eca5da6c748'
+      width: 457
+      height: 457
+    location: 'Santa Cruz, Bolivia'
+
+  - title: "Conoce Redux para Angular"
+    type: 'course'
+    text: 'Qué es Redux, una librería que implementa el patrón Flux para el desarrollo de aplicaciones web, que permite mantener de una manera sencilla el estado de las aplicaciones y el flujo de datos dentro de la aplicación.'
+    date: '2017-11-13'
+    youtube: 'LudInW0T55Q'
+    location: 'Madrid, España'
+
+  - title: "Mapas en tiempo real con Ionic + Firebase + Gmaps."
+    type: 'workshop'
+    text: 'Taller para construir apps con mapas.'
+    date: '2017-11-25'
+    image:
+      url: 'https://firebasestorage.googleapis.com/v0/b/nicobytes-7bea8.appspot.com/o/talks%2F23843390_10213931993189831_6887444128335579290_n.jpg?alt=media&token=a1330e53-8189-406a-b5d7-5eca5da6c748'
+      width: 457
+      height: 457
+    location: 'Santa Cruz, Bolivia'
+
+  - title: "Lanzamiento del Curso de Redux para DevCode."
+    type: 'course'
+    text: 'Curso sobre redux en Angular 4.'
+    date: '2017-09-13'
+    image:
+      url: 'https://firebasestorage.googleapis.com/v0/b/nicobytes-7bea8.appspot.com/o/talks%2F22219841_10213547236331150_8592037665656068391_o.jpg?alt=media&token=558e62b6-6cf3-41dc-b9c7-79812d10515c'
+      width: 993
+      height: 559
+    location: 'Perú'
+
+  - title: "Ng-Hangouts # 9 [ Leo Camacho , Costa Rica ]: Marketing Digital para nuestras Apps."
+    type: 'youtube'
+    text: 'Hablamos de Google Analytics en Ionic.'
+    date: '2017-09-13'
+    youtube: 'FqE9GR_VWZY'
+    location: 'Internet'
+  
+  - title: "GraphQL + Django"
+    type: 'meetup'
+    text: 'GraphQL + Django para web services más poderos.'
+    image:
+      url: 'https://secure.meetupstatic.com/photos/event/4/6/a/f/highres_464178095.jpeg'
+      width: 669
+      height: 502
+    date: '2017-08-31'
+    slides: 'https://www.meetup.com/pythonbogota/photos/28129695/'
+    location: 'Bogotá, Colombia'
+
+  - title: "¿Qué elegir WEBApp, PWA, Hibrido, Nativo?"
+    type: 'meetup'
+    text: 'Hablamos sobre las ventajas y desventajas de cada una.'
+    image:
+      url: 'https://firebasestorage.googleapis.com/v0/b/nicobytes-7bea8.appspot.com/o/talks%2F20770105_10213123669222237_5900742260242193659_n.jpg?alt=media&token=84f80af2-387a-408e-bec7-c44418870c6b'
+      width: 502
+      height: 502
+    date: '2017-08-14'
+    slides: 'https://www.meetup.com/Cross-Apps-Colombia/photos/28107734/'
+    location: 'Bogotá, Colombia'
 
   - title: "Introducción a Typescript"
     type: 'meetup'
