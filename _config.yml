@@ -47,87 +47,136 @@ social:
     icon: "stack-overflow"
 
 talks:
-  - title: "Redux w/ Angular, Ionic w/ maps."
+
+  - title: "Angular Colombia: Analizando el tamaño del bundle en Angular"
+    type: 'meetup'
+    text: 'Vimos varias de las practicas para analizar y optimizar el peso de nuestras aplicaciones.'
+    date: '2019-01-22'
+    image:
+      url: 'https://firebasestorage.googleapis.com/v0/b/nicobytes-7bea8.appspot.com/o/talks%2F29749348_10215066416549706_554487993948304341_o.jpg?alt=media&token=1a36520e-98a7-464f-af75-9db486ee37b7'
+      width: 333
+      height: 514
+    location: 'Bogotá, Colombia'
+
+  - title: "QA Bolivia: Coverage report"
+    type: 'meetup'
+    text: 'Meetup sobre el reporte de covertura.'
+    date: '2018-12-01'
+    image:
+      url: 'https://firebasestorage.googleapis.com/v0/b/nicobytes-7bea8.appspot.com/o/talks%2F29749348_10215066416549706_554487993948304341_o.jpg?alt=media&token=1a36520e-98a7-464f-af75-9db486ee37b7'
+      width: 333
+      height: 514
+    location: 'Cochabamba, Bolivia'
+
+  - title: "Ng Girls Bolivia 2018"
     type: 'conf'
-    text: 'Conferencia sobre redux y workshop sobre ionic.'
-    date: '2017-04-03'
+    text: 'Conferencia de como hacer pruebas unitarias no solo mejora la calidad del software si no que tambien la calidad del desarrollador.'
+    date: '2018-11-24'
+    image:
+      url: 'https://firebasestorage.googleapis.com/v0/b/nicobytes-7bea8.appspot.com/o/talks%2F29749348_10215066416549706_554487993948304341_o.jpg?alt=media&token=1a36520e-98a7-464f-af75-9db486ee37b7'
+      width: 333
+      height: 514
+    location: 'Cochabamba, Bolivia'
+
+  - title: "TechZone 2018: Chatbots en Azure"
+    type: 'conf'
+    text: 'Conferencia de como hacer pruebas unitarias no solo mejora la calidad del software si no que tambien la calidad del desarrollador.'
+    date: '2018-10-26'
+    image:
+      url: 'https://firebasestorage.googleapis.com/v0/b/nicobytes-7bea8.appspot.com/o/talks%2F29749348_10215066416549706_554487993948304341_o.jpg?alt=media&token=1a36520e-98a7-464f-af75-9db486ee37b7'
+      width: 333
+      height: 514
+    location: 'Cochabamba, Bolivia'
+
+  - title: "ArgenTesting 2018: Pruebas unitarias, haciendo la vida del desaroolador más facil"
+    type: 'conf'
+    text: 'Conferencia de como hacer pruebas unitarias no solo mejora la calidad del software si no que tambien la calidad del desarrollador.'
+    date: '2018-10-19'
+    image:
+      url: 'https://firebasestorage.googleapis.com/v0/b/nicobytes-7bea8.appspot.com/o/talks%2F29749348_10215066416549706_554487993948304341_o.jpg?alt=media&token=1a36520e-98a7-464f-af75-9db486ee37b7'
+      width: 333
+      height: 514
+    location: 'Buenos aires, Argentina'
+
+  - title: "ArgenTesting 2018: Codelab, Unit testing w/ Angular"
+    type: 'workshop'
+    text: 'Conferencia de como hacer pruebas unitarias no solo mejora la calidad del software si no que tambien la calidad del desarrollador.'
+    date: '2018-10-18'
+    image:
+      url: 'https://firebasestorage.googleapis.com/v0/b/nicobytes-7bea8.appspot.com/o/talks%2F29749348_10215066416549706_554487993948304341_o.jpg?alt=media&token=1a36520e-98a7-464f-af75-9db486ee37b7'
+      width: 333
+      height: 514
+    location: 'Buenos aires, Argentina'
+
+  - title: "Cobol2018: Redux, Graphql y Ionic/Angular"
+    type: 'conf'
+    text: 'Conferencia de como hacer pruebas unitarias no solo mejora la calidad del software si no que tambien la calidad del desarrollador.'
+    date: '2018-10-08'
+    image:
+      url: 'https://firebasestorage.googleapis.com/v0/b/nicobytes-7bea8.appspot.com/o/talks%2F29749348_10215066416549706_554487993948304341_o.jpg?alt=media&token=1a36520e-98a7-464f-af75-9db486ee37b7'
+      width: 333
+      height: 514
+    location: 'Pando, Bolivia'
+
+  - title: "Redux, Graphql y Ionic/Angular"
+    type: 'conf'
+    text: 'Conferencia de como hacer pruebas unitarias no solo mejora la calidad del software si no que tambien la calidad del desarrollador.'
+    date: '2018-09-12'
     image:
       url: 'https://firebasestorage.googleapis.com/v0/b/nicobytes-7bea8.appspot.com/o/talks%2F29749348_10215066416549706_554487993948304341_o.jpg?alt=media&token=1a36520e-98a7-464f-af75-9db486ee37b7'
       width: 333
       height: 514
     location: 'Sucre, Bolivia'
 
-  - title: "Ng-Hangouts #14: Docker e Ionic."
-    type: 'youtube'
-    text: '@nicobytes y Carlos hablaran de Angularfire2.'
-    date: '2018-03-24'
-    youtube: 'qW0rZE6IiOU'
-    location: 'Internet'
-
-  - title: "Curso Ionic 3 para DevCode."
+  - title: "Introducción a las PWA"
     type: 'conf'
-    text: 'Trabajamos junto a DevCode creado este curso de Ionic donde clonamos el app de instagram!'
-    date: '2017-03-12'
+    text: 'Conferencia de como hacer pruebas unitarias no solo mejora la calidad del software si no que tambien la calidad del desarrollador.'
+    date: '2018-09-11'
     image:
-      url: 'https://firebasestorage.googleapis.com/v0/b/nicobytes-7bea8.appspot.com/o/talks%2F29135954_10214868842250472_3024324959762644992_o.jpg?alt=media&token=907ffbf5-36ef-4970-9148-fcd1f240b18b'
-      width: 873
-      height: 457
-    location: 'Perú'
+      url: 'https://firebasestorage.googleapis.com/v0/b/nicobytes-7bea8.appspot.com/o/talks%2F29749348_10215066416549706_554487993948304341_o.jpg?alt=media&token=1a36520e-98a7-464f-af75-9db486ee37b7'
+      width: 333
+      height: 514
+    location: 'Sucre, Bolivia'
 
-  - title: "Unit Testing w/ Angular"
+  - title: "NgBolivia 2018: Mobile with Angular (PWA, Nativescript and Ionic)"
     type: 'conf'
-    text: 'En esta charla veremos como escribir #UnitTests y conocer los indicadores para saber qué partes debemos probar.'
+    text: 'Conferencia de como hacer pruebas unitarias no solo mejora la calidad del software si no que tambien la calidad del desarrollador.'
+    date: '2018-08-04'
+    image:
+      url: 'https://firebasestorage.googleapis.com/v0/b/nicobytes-7bea8.appspot.com/o/talks%2F29749348_10215066416549706_554487993948304341_o.jpg?alt=media&token=1a36520e-98a7-464f-af75-9db486ee37b7'
+      width: 333
+      height: 514
+    location: 'Sucre, Bolivia'
+
+   - title: "Flisol 2018: Ionic 4 con Angular."
+    type: 'conf'
+    text: 'Conferencia sobre redux y workshop sobre ionic.'
+    date: '2018-04-27'
+    image:
+      url: 'https://firebasestorage.googleapis.com/v0/b/nicobytes-7bea8.appspot.com/o/talks%2F29749348_10215066416549706_554487993948304341_o.jpg?alt=media&token=1a36520e-98a7-464f-af75-9db486ee37b7'
+      width: 333
+      height: 514
+    location: 'Sucre, Bolivia'
+
+  - title: "NgMedellín: Pruebas unitarias en Angular."
+    type: 'conf'
+    text: 'Conferencia de como hacer pruebas unitarias no solo mejora la calidad del software si no que tambien la calidad del desarrollador.'
     date: '2018-03-17'
     image:
-      url: 'https://firebasestorage.googleapis.com/v0/b/nicobytes-7bea8.appspot.com/o/talks%2F28951254_10214851234450288_9120079443480543232_o.jpg?alt=media&token=44bffa9e-e77c-4d5b-a610-9ab9b4c8dc74'
-      width: 502
-      height: 502
+      url: 'https://firebasestorage.googleapis.com/v0/b/nicobytes-7bea8.appspot.com/o/talks%2F29749348_10215066416549706_554487993948304341_o.jpg?alt=media&token=1a36520e-98a7-464f-af75-9db486ee37b7'
+      width: 333
+      height: 514
     location: 'Mdellín, Colombia'
 
-  - title: "GraphQL vs API REST para EscuelaIT"
-    type: 'course'
-    text: 'Comparativa entre dos modelos para el desarrollo de API, como son REST, un modelo consolidado en la industria y GraphQL, una alternativa más nueva que se plantea como mejora y que viene a solucionar problemas tradicionales en el desarrollo de servicios web..'
-    date: '2018-03-13'
-    youtube: 'MY9YHU3FGaQ'
-    location: 'Madrid, España'
-
-  - title: "Ng-Hangouts #13 AngularFire2."
-    type: 'youtube'
-    text: '@nicobytes y Carlos hablaran de Angularfire2.'
-    date: '2018-03-10'
-    youtube: 'om9nBOngPFQ'
-    location: 'Internet'
-
-  - title: "Ng-Hangouts 12 : Web Components (Stencil)."
-    type: 'youtube'
-    text: 'En esta ocasión Carlos y Nico van a estar hablando sobre la evolución de los componentes y su integración en los navegadores.'
-    date: '2018-02-24'
-    youtube: '9E2On02Xwag'
-    location: 'Internet'
-
-  - title: "Ng-Hangout #11 - Google Maps en Ionic."
-    type: 'youtube'
-    text: 'Carlos y Nico van a estar hablando sobre Google Maps'
-    date: '2018-02-08'
-    youtube: 'FUFBU9FQNk'
-    location: 'Internet'
-
-  - title: "Ng-Hangouts #10: Arquitectura en Apps con Angular."
-    type: 'youtube'
-    text: 'Que arquitectura debo seguir para asegurar la mantenibilidad de mi código?'
-    date: '2018-01-24'
-    youtube: 'thYPhYmmCfk'
-    location: 'Internet'
-
-  - title: "Curso de GraphQL para DevCode."
+  - title: "GDG Sucre: Redux w/ Angular, Ionic w/ maps."
     type: 'conf'
-    text: 'Lanzamiento del curso de GraphQL en node.'
-    date: '2017-12-11'
+    text: 'Conferencia sobre redux y workshop sobre ionic.'
+    date: '2018-04-06'
     image:
-      url: 'https://firebasestorage.googleapis.com/v0/b/nicobytes-7bea8.appspot.com/o/talks%2F24993339_10214077002734979_8064879404683303535_n.jpg?alt=media&token=ed9a37bc-d4cf-4d22-88b9-b9e7a3df0577'
-      width: 889
-      height: 374
-    location: 'Perú'
+      url: 'https://firebasestorage.googleapis.com/v0/b/nicobytes-7bea8.appspot.com/o/talks%2F29749348_10215066416549706_554487993948304341_o.jpg?alt=media&token=1a36520e-98a7-464f-af75-9db486ee37b7'
+      width: 333
+      height: 514
+    location: 'Sucre, Bolivia'
 
   - title: "Mapas en tiempo real con Ionic + Firebase + Gmaps."
     type: 'workshop'
@@ -139,13 +188,6 @@ talks:
       height: 457
     location: 'Santa Cruz, Bolivia'
 
-  - title: "Conoce Redux para Angular"
-    type: 'course'
-    text: 'Qué es Redux, una librería que implementa el patrón Flux para el desarrollo de aplicaciones web, que permite mantener de una manera sencilla el estado de las aplicaciones y el flujo de datos dentro de la aplicación.'
-    date: '2017-11-13'
-    youtube: 'LudInW0T55Q'
-    location: 'Madrid, España'
-
   - title: "Mapas en tiempo real con Ionic + Firebase + Gmaps."
     type: 'workshop'
     text: 'Taller para construir apps con mapas.'
@@ -155,23 +197,6 @@ talks:
       width: 457
       height: 457
     location: 'Santa Cruz, Bolivia'
-
-  - title: "Lanzamiento del Curso de Redux para DevCode."
-    type: 'course'
-    text: 'Curso sobre redux en Angular 4.'
-    date: '2017-09-13'
-    image:
-      url: 'https://firebasestorage.googleapis.com/v0/b/nicobytes-7bea8.appspot.com/o/talks%2F22219841_10213547236331150_8592037665656068391_o.jpg?alt=media&token=558e62b6-6cf3-41dc-b9c7-79812d10515c'
-      width: 993
-      height: 559
-    location: 'Perú'
-
-  - title: "Ng-Hangouts # 9 [ Leo Camacho , Costa Rica ]: Marketing Digital para nuestras Apps."
-    type: 'youtube'
-    text: 'Hablamos de Google Analytics en Ionic.'
-    date: '2017-09-13'
-    youtube: 'FqE9GR_VWZY'
-    location: 'Internet'
   
   - title: "GraphQL + Django"
     type: 'meetup'
@@ -204,13 +229,6 @@ talks:
       height: 1365
     date: '2017-07-22'
     location: 'Cochabamba, Bolivia'
-
-  - title: "Curso de Pruebas unitarias en EscuelaIT"
-    type: 'course'
-    text: 'Aprende a realizar testing de tus aplicaciones desarrolladas con Angular. Conoce las herramientas usadas para realizar las pruebas del software y realiza los primeros pasos para el desarrollo de las pruebas unitarias.'
-    youtube: 'zdRpIqMNuIM'
-    date: '2017-07-05'
-    location: 'Madrid, España'
 
   - title: "¿Qué son las Progressive Web Apps?"
     type: 'conf'
@@ -262,14 +280,6 @@ talks:
     date: '2017-06-07'
     location: 'Cochabamba, Bolivia'
 
-  - title: "ion-hangouts #2 [Jorge Cano @jorgeucano] : Ionic y NativeScript"
-    type: 'youtube'
-    text: "Ionic vs Nativescript"
-    slides: 'https://www.youtube.com/watch?v=-kmvghV2CGo'
-    youtube: '-kmvghV2CGo'
-    date: '2017-04-20'
-    location: 'Lima, Perú'
-
   - title: "Workshop Ionic - Angular Day"
     type: 'workshop'
     text: 'Vamos a construir una aplicación para Android y IOS con Ionic. En este workshop aprenderás como iniciar un proyecto con Ionic y usar los recursos nativos como Camara, Geolocation etc. Al finalizar el wrokshop tendrás una app lista en Android y IOS con una sola base de código.'
@@ -279,17 +289,6 @@ talks:
       width: 2048
       height: 1152
     date: '2017-02-29'
-    location: 'Cochabamba, Bolivia'
-
-  - title: "Curso Ionic - Universidad Mayor de San Simon"
-    type: 'course'
-    text: 'En el curso de Ionic veremos cómo desarrollar apps para múltiples plataformas: Android, iOS, Windows, usando la misma base de código, gracias al SDK que nos provee el framework. A lo largo de las sesiones del curso veremos sus principales características, componentes, conexiones a REST y acceso a componentes nativos como Cámara, Acelerómetro, Geolocalización, etc... hasta la distribución de la aplicación en tiendas como Google Play o App Store.'
-    slides: 'http://escuela.it/cursos/curso-ionic-v2/'
-    image:
-      url: 'images/time37.JPG'
-      width: 1000
-      height: 750
-    date: '2017-04-28'
     location: 'Cochabamba, Bolivia'
 
   - title: "Progressive Web Apps en Flisol Bolivia"
@@ -303,25 +302,6 @@ talks:
     date: '2017-04-22'
     location: 'Cochabamba, Bolivia'
 
-  - title: "ion-hangouts #1 [German Hernandez @muygrafico] : Ionic vs React Native vs Nativescript"
-    type: 'youtube'
-    text: "Ionic vs React Native vs Nativescript"
-    slides: 'https://www.youtube.com/watch?v=cazi3h8oee8'
-    youtube: 'cazi3h8oee8'
-    date: '2017-04-20'
-    location: 'Cochabamba, Bolivia'
-
-  - title: "Curso Ionic - Minera san cristobal"
-    type: 'course'
-    text: 'En el curso de Ionic veremos cómo desarrollar apps para múltiples plataformas: Android, iOS, Windows, usando la misma base de código, gracias al SDK que nos provee el framework. A lo largo de las sesiones del curso veremos sus principales características, componentes, conexiones a REST y acceso a componentes nativos como Cámara, Acelerómetro, Geolocalización, etc... hasta la distribución de la aplicación en tiendas como Google Play o App Store.'
-    slides: 'http://www.nicobytes.com/course-ionic2/'
-    image:
-      url: 'images/time34.jpg'
-      width: 2048
-      height: 1152
-    date: '2017-04-07'
-    location: 'La Paz, Bolivia'
-
   - title: "Ionic Vs React Native Vs NativeScript"
     type: 'meetup'
     text: 'Los invitamos a conocer más sobre estas muy interesantes tecnologías, lo que tienen en común, sus diferencias, ventajas y desventajas. Vamos a enfocarnos en mirar las diferencias entre nativeScript y reactNative ya que ionic realmente es algo diferente (un webView) y no sería muy justo comparar “peras“ y “manzanas“.'
@@ -332,17 +312,6 @@ talks:
       height: 1200
     date: '2017-03-15'
     location: 'La Paz, Bolivia'
-
-  - title: "Curso Ionic en EscuelaIT (Segunda edición)"
-    type: 'course'
-    text: 'En el curso de Ionic veremos cómo desarrollar apps para múltiples plataformas: Android, iOS, Windows, usando la misma base de código, gracias al SDK que nos provee el framework. A lo largo de las sesiones del curso veremos sus principales características, componentes, conexiones a REST y acceso a componentes nativos como Cámara, Acelerómetro, Geolocalización, etc... hasta la distribución de la aplicación en tiendas como Google Play o App Store.'
-    slides: 'http://escuela.it/cursos/curso-ionic-v2/'
-    image:
-      url: 'images/time24.jpg'
-      width: 750
-      height: 422
-    date: '2017-03-05'
-    location: 'Bogotá, Colombia'
 
   - title: "Lanzamiento de Duety"
     type: 'conf'
@@ -385,13 +354,6 @@ talks:
     date: '2017-01-26'
     location: 'Bogotá, Colombia'
 
-  - title: "Ionic 2 Vs NativeScript #programadorIO"
-    type: 'youtube'
-    text: 'Este miércoles tenemos una reunión de expertos para realizar una comparativa Ionic Vs NativeScript, en #programadorIO.'
-    youtube: 'UA8CVdhRvlk'
-    date: '2017-01-05'
-    location: 'Bogotá, Colombia'
-
   - title: "Push Notifications con Ionic 2"
     type: 'meetup'
     text: 'Recuerda que Ionic 2 es un poderoso SDK para desarrollar apps nativas y PWA usando Html, css y Js, además está basado en Angular 2 y además tiene sus servicios de Ionic Cloud, el cual nos provee una serie de herramienta para potenciar nuestras apps.'
@@ -401,16 +363,6 @@ talks:
       width: 1200
       height: 675
     date: '2016-12-15'
-    location: 'Bogotá, Colombia'
-
-  - title: "Capacitación Ionic 2 a ServiGenerales"
-    type: 'course'
-    text: 'Consultaria en la implementacion de Ionic 2 en los procesos de la compañia.'
-    image:
-      url: 'images/time28.jpg'
-      width: 1200
-      height: 938
-    date: '2016-12-12'
     location: 'Bogotá, Colombia'
 
   - title: "Mentor en DjangoGirls Cali"
@@ -425,17 +377,6 @@ En Cali, el 9 y 10 de Diciembre de 2016.'
     date: '2016-12-10'
     location: 'Cali, Colombia'
 
-  - title: "Capacitación Ionic 2 a CorpoIca"
-    type: 'course'
-    text: 'Capacitación al grupo de ingeniería para la implementacion de Ionic 2 en los procesos de la compañia.'
-    slides: 'http://www.nicobytes.com/course-ionic2/'
-    image:
-      url: 'images/time26.jpg'
-      width: 800
-      height: 598
-    date: '2016-11-18'
-    location: 'Mosquera, Colombia' 
-
   - title: "Construyendo sitios con Jekyll"
     type: 'meetup'
     text: 'Jekyll is un proyecto libre y basado en ruby, que nos permite crear geniales sitios fácilmente. Es fácil de usar y extremadamente rápido para construir sitios. Millones de personas lo usan y tiene conexión directa con GitHub Pages. En el meetup aprenderás como funciona y poner en marcha un sitio con Jekyll. '
@@ -447,25 +388,6 @@ En Cali, el 9 y 10 de Diciembre de 2016.'
     date: '2016-11-17'
     location: 'Bogotá, Colombia'
 
-  - title: "#Angular 2 con Nicolás Molina @Nicobytes"
-    type: 'youtube'
-    text: 'Nicolas Molina (@Nicobytes) es desarrollador web especializado en el área de #FrontEnd & #HybripApps, enfocado en aprendizaje de #JS y al desarrollo de apps con #Angular2 y #Ionic2.'
-    slides: 'http://slides.com/nicobytes/angular-2'
-    youtube: 't4mrvzyHgRc'
-    date: '2016-11-17'
-    location: 'Bogotá, Colombia'
-
-  - title: "Consultaria Ionic 2 a KnarSAS"
-    type: 'course'
-    text: 'Consultaria en la implementacion de Ionic 2 en los procesos de la compañia.'
-    slides: 'http://slides.com/nicobytes/ionic-2-firebase-3'
-    image:
-      url: 'images/time25.jpg'
-      width: 800
-      height: 600
-    date: '2016-11-14'
-    location: 'Bogotá, Colombia'
-
   - title: "Firebase 3 + Ionic 2"
     type: 'meetup'
     text: 'Meetup sobre la integración de Firebase 3 + Ionic 2, en esta ocasión hablaremos haremos la integración de una app con Ionic 2 con Firebase Database y Firebase Auth.'
@@ -475,30 +397,6 @@ En Cali, el 9 y 10 de Diciembre de 2016.'
       width: 800
       height: 539
     date: '2016-11-11'
-    location: 'Bogotá, Colombia'
-
-  - title: "¿Qué es una HybridApp? Ionic 2 #devHangout 175 con @nicobytes"
-    type: 'youtube'
-    text: "Nicolas Molina Monroy, desarrollador web especializado en el área de FrontEnd & HybripApps."
-    slides: 'http://www.nicobytes.com/ionic-v2-slides'
-    youtube: '5iHCYN5frBc'
-    date: '2016-10-28'
-    location: 'Bogotá, Colombia'
-
-  - title: "Objetivos de Ionic 2 #devHangout 175 con @nicobytes"
-    type: 'youtube'
-    text: "Nicolas Molina Monroy, desarrollador web especializado en el área de FrontEnd & HybripApps."
-    slides: 'http://www.nicobytes.com/ionic-v2-slides'
-    youtube: 'm6TLH7CPs6c'
-    date: '2016-10-28'
-    location: 'Bogotá, Colombia'
-
-  - title: "Beneficios de Ionic 2, nuevos conceptos ES6 #devHangout 175 con @nicobytes"
-    type: 'youtube'
-    text: "Nicolas Molina Monroy, desarrollador web especializado en el área de FrontEnd & HybripApps."
-    slides: 'http://www.nicobytes.com/ionic-v2-slides'
-    youtube: 'qzzhw56SIyM'
-    date: '2016-10-28'
     location: 'Bogotá, Colombia'
 
   - title: "¿Que son las PWA (Progressive web apps)?"
@@ -590,17 +488,6 @@ En Cali, el 9 y 10 de Diciembre de 2016.'
     date: '2016-08-09'
     location: 'Bogotá, Colombia'
 
-  - title: "Curso Ionic 2 en EscuelaIT"
-    type: 'course'
-    text: 'En el curso de Ionic V2 veremos cómo desarrollar apps para múltiples plataformas: Android, iOS, Windows, usando la misma base de código, gracias al SDK que nos provee el framework. A lo largo de las sesiones del curso veremos sus principales características, componentes, conexiones a REST y acceso a componentes nativos como Cámara, Acelerómetro, Geolocalización, etc... hasta la distribución de la aplicación en tiendas como Google Play o App Store.'
-    slides: 'http://escuela.it/cursos/curso-ionic-v2/'
-    image:
-      url: 'images/time24.jpg'
-      width: 750
-      height: 422
-    date: '2016-08-01'
-    location: 'Bogotá, Colombia'
-
   - title: "Introducción a Ionic 2"
     type: 'meetup'
     text: 'Todo lo que necesitas saber para comenzar en Ionic 2.'
@@ -611,32 +498,6 @@ En Cali, el 9 y 10 de Diciembre de 2016.'
       height: 1936
     date: '2016-07-13'
     location: 'Bogotá, Colombia'
-
-  - title: "Ionic v2 por la práctica"
-    type: 'youtube'
-    text: 'Primeros pasos en la práctica de la versión 2 del framework Ionic para desarrollar aplicaciones para Android, IOS y Windows con una sola base de código..'
-    slides: 'http://www.nicobytes.com/ionic-v2-slides'
-    youtube: '6RLv5ovnTsc'
-    date: '2016-07-13'
-    location: 'Bogotá, Colombia'
-
-  - title: "Introducción a Ionic 2"
-    type: 'youtube'
-    text: 'Todo lo que necesitas saber para comenzar en Ionic 2.'
-    slides: 'http://www.nicobytes.com/ionic-v2-slides'
-    youtube: 'kWZcdgLbWQI'
-    date: '2016-06-13'
-    location: 'Viña del Mar, Chile'
-
-  - title: "Curso de Ionic 1"
-    type: 'course'
-    text: 'Curso completo de ionic 1 para la <strong>Universidad Mayor de San Simon</strong>'
-    image:
-      url: 'images/time13.jpg'
-      width: 960
-      height: 540
-    date: '2016-05-23'
-    location: 'Cochabamba, Bolivia'
 
   - title: "FreelanceDay, Cochabamba"
     type: 'conf'
@@ -704,14 +565,6 @@ En Cali, el 9 y 10 de Diciembre de 2016.'
     date: '2016-04-09'
     location: 'La Paz, Bolivia'
 
-  - title: "Conoce Ionic 2"
-    type: 'youtube'
-    text: 'En este hangout vamos a presentar la nueva versión del framework para el desarrollo de aplicaciones híbridas, Ionic. Es una excelente opción para el desarrollo de webapss que funcionan en todos los dispositivos. '
-    slides: 'http://www.nicobytes.com/ionic-v2-slides'
-    youtube: 'KgKo0BwHG34'
-    date: '2016-04-05'
-    location: 'La Paz, Bolivia'
-
   - title: "Ionic GDG La Paz"
     type: 'meetup'
     text: 'Desarrollo de aplicaciones híbridas con ionic desarrollo multiplataforma con la misma base de código.'
@@ -742,22 +595,6 @@ En Cali, el 9 y 10 de Diciembre de 2016.'
       width: 960
       height: 540
     date: '2016-02-05'
-    location: 'Ica, Peru'
-
-  - title: "Pruebas unitarias en Angular 1.x"
-    type: 'youtube'
-    text: 'En este #devHangout conversamos acerca de Pruebas unitarias en Angular que empieza con la filosofia que es TDD. TDD es una práctica de ingeniería de software que involucra otras dos prácticas: Escribir las pruebas primero (Test First Development) y Refactorización (Refactoring).'
-    slides: 'http://slides.com/nicobytes/testing'
-    youtube: 'WNLM7ZX65e4'
-    date: '2016-01-27'
-    location: 'Ica, Peru'
-
-  - title: "Ionic Framework"
-    type: 'youtube'
-    text: 'En este #devHangout conoceremos sobre el desarrollo de aplicaciones híbridas con ionic, el desarrollo multiplataforma con la misma base de código.'
-    slides: 'http://www.nicobytes.com/ionic-slides/'
-    youtube: 'z1V8Qxf_wL4'
-    date: '2016-01-20'
     location: 'Ica, Peru'
 
   - title: "Haciendo apps con Ionic 1"
