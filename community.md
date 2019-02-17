@@ -33,19 +33,19 @@ I have written more than **+40** articles about Angular and Ionic.
 
 * [**Articles**](https://blog.ng-classroom.com/blog/authors/nicobytes/){:target="_blank"}
 
-## [4. NgGirls Bolivia 2018](http://ng-girls.org/bolivia-2018/){:target="_blank"} [Co-organizer and Mentor] Diversity Event
+## [5. NgGirls Bolivia 2018](http://ng-girls.org/bolivia-2018/){:target="_blank"} [Co-organizer and Mentor] Diversity Event
 
 NgGirls Cochabamba 2018 is the first Angular workshop for women carried out in Bolivia with **+90** women.
 
 * [**Photos**](https://t.co/kAyMlqttNg){:target="_blank"}
 
-## [5. My Talks](https://nicobytes.com/talks/){:target="_blank"}
+## [6. My Talks](https://nicobytes.com/talks/){:target="_blank"}
 
 I participated as speaker in more than **+50** events from 2015 in different latam countries like: Argentina, Colombia, Bolivia, Perú, Ecuador and Chile about Angular and web technologies.
 
 * [**List talks**](https://nicobytes.com/talks/){:target="_blank"}
 
-## [6. My Courses](https://escuela.it/teacher/nicolas-molina){:target="_blank"} EscuelaIt Academic
+## [7. My Courses](https://escuela.it/teacher/nicolas-molina){:target="_blank"} EscuelaIt Academic
 
 I gave **6** spanish courses in EscuelaIt Academic about Graphql, Angular testing, Redux, ionic and Ngrx.
 
