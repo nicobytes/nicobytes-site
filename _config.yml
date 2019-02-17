@@ -18,44 +18,43 @@ twitter: "https://twitter.com/nicobytes"
 permalink: /:categories/:title/
 
 sass:
-    style: compressed
+  style: compressed
 
 links:
   - title: 'Inicio'
     url: /
     target: '_self'
   - title: 'Blog'
-    url: 'https://www.ion-book.com/blog/authors/nicobytes/'
+    url: 'https://blog.ng-classroom.com/blog/authors/nicobytes/'
     target: '_blank'
   - title: 'Charlas'
     url: /talks
     target: '_self'
-  - title: 'Contáctame'
-    url: 'https://nicobytes.sarahah.com/'
+  - title: 'Youtube'
+    url: 'https://www.youtube.com/c/nicobytes'
     target: '_blank'
 
 social:
-  - link: "https://medium.com/@nicobytes"
-    icon: "medium"
   - link: "https://twitter.com/nicobytes"
     icon: "twitter"
   - link: "https://github.com/nicobytes"
     icon: "github"
+  - link: "https://www.youtube.com/c/nicobytes"
+    icon: "youtube"
   - link: "https://co.linkedin.com/in/nicobytes"
     icon: "linkedin"
   - link: "http://stackoverflow.com/users/6420164/nicolas-molina"
     icon: "stack-overflow"
 
 talks:
-
   - title: "Angular Colombia: Analizando el tamaño del bundle en Angular"
     type: 'meetup'
     text: 'Vimos varias de las practicas para analizar y optimizar el peso de nuestras aplicaciones.'
     date: '2019-01-22'
     image:
-      url: 'https://firebasestorage.googleapis.com/v0/b/nicobytes-7bea8.appspot.com/o/talks%2F29749348_10215066416549706_554487993948304341_o.jpg?alt=media&token=1a36520e-98a7-464f-af75-9db486ee37b7'
-      width: 333
-      height: 514
+      url: 'https://firebasestorage.googleapis.com/v0/b/nicobytes-7bea8.appspot.com/o/talks%2F2019-01-22.jpg?alt=media&token=63f92c32-37da-40af-900c-26a452ce5558'
+      width: 1080
+      height: 1080
     location: 'Bogotá, Colombia'
 
   - title: "QA Bolivia: Coverage report"
@@ -63,9 +62,9 @@ talks:
     text: 'Meetup sobre el reporte de covertura.'
     date: '2018-12-01'
     image:
-      url: 'https://firebasestorage.googleapis.com/v0/b/nicobytes-7bea8.appspot.com/o/talks%2F29749348_10215066416549706_554487993948304341_o.jpg?alt=media&token=1a36520e-98a7-464f-af75-9db486ee37b7'
-      width: 333
-      height: 514
+      url: 'https://firebasestorage.googleapis.com/v0/b/nicobytes-7bea8.appspot.com/o/talks%2F2018-12-01.jpg?alt=media&token=0c9c9135-94c2-4231-9b92-ecbd8e0dbb0f'
+      width: 1728
+      height: 1152
     location: 'Cochabamba, Bolivia'
 
   - title: "Ng Girls Bolivia 2018"
@@ -73,9 +72,9 @@ talks:
     text: 'Conferencia de como hacer pruebas unitarias no solo mejora la calidad del software si no que tambien la calidad del desarrollador.'
     date: '2018-11-24'
     image:
-      url: 'https://firebasestorage.googleapis.com/v0/b/nicobytes-7bea8.appspot.com/o/talks%2F29749348_10215066416549706_554487993948304341_o.jpg?alt=media&token=1a36520e-98a7-464f-af75-9db486ee37b7'
-      width: 333
-      height: 514
+      url: 'https://firebasestorage.googleapis.com/v0/b/nicobytes-7bea8.appspot.com/o/talks%2F2018-11-24.jpg?alt=media&token=5e4f59e5-d11e-4cee-8a3e-dde2aac8d994'
+      width: 960
+      height: 426
     location: 'Cochabamba, Bolivia'
 
   - title: "TechZone 2018: Chatbots en Azure"
@@ -83,9 +82,9 @@ talks:
     text: 'Conferencia de como hacer pruebas unitarias no solo mejora la calidad del software si no que tambien la calidad del desarrollador.'
     date: '2018-10-26'
     image:
-      url: 'https://firebasestorage.googleapis.com/v0/b/nicobytes-7bea8.appspot.com/o/talks%2F29749348_10215066416549706_554487993948304341_o.jpg?alt=media&token=1a36520e-98a7-464f-af75-9db486ee37b7'
-      width: 333
-      height: 514
+      url: 'https://firebasestorage.googleapis.com/v0/b/nicobytes-7bea8.appspot.com/o/talks%2F2018-10-26.jpg?alt=media&token=b81394f0-2539-44e1-9c88-47a5e45a1f68'
+      width: 2048
+      height: 1536
     location: 'Cochabamba, Bolivia'
 
   - title: "ArgenTesting 2018: Pruebas unitarias, haciendo la vida del desaroolador más facil"
@@ -93,9 +92,9 @@ talks:
     text: 'Conferencia de como hacer pruebas unitarias no solo mejora la calidad del software si no que tambien la calidad del desarrollador.'
     date: '2018-10-19'
     image:
-      url: 'https://firebasestorage.googleapis.com/v0/b/nicobytes-7bea8.appspot.com/o/talks%2F29749348_10215066416549706_554487993948304341_o.jpg?alt=media&token=1a36520e-98a7-464f-af75-9db486ee37b7'
-      width: 333
-      height: 514
+      url: 'https://firebasestorage.googleapis.com/v0/b/nicobytes-7bea8.appspot.com/o/talks%2F2018-10-19.jpg?alt=media&token=02d5ba4a-8f20-4593-be1d-7a72c1d5b386'
+      width: 1080
+      height: 719
     location: 'Buenos aires, Argentina'
 
   - title: "ArgenTesting 2018: Codelab, Unit testing w/ Angular"
@@ -103,9 +102,9 @@ talks:
     text: 'Conferencia de como hacer pruebas unitarias no solo mejora la calidad del software si no que tambien la calidad del desarrollador.'
     date: '2018-10-18'
     image:
-      url: 'https://firebasestorage.googleapis.com/v0/b/nicobytes-7bea8.appspot.com/o/talks%2F29749348_10215066416549706_554487993948304341_o.jpg?alt=media&token=1a36520e-98a7-464f-af75-9db486ee37b7'
-      width: 333
-      height: 514
+      url: 'https://firebasestorage.googleapis.com/v0/b/nicobytes-7bea8.appspot.com/o/talks%2F2018-10-18.jpg?alt=media&token=22ed6ad4-b138-4622-8d7f-1e539ded517e'
+      width: 1280
+      height: 720
     location: 'Buenos aires, Argentina'
 
   - title: "Cobol2018: Redux, Graphql y Ionic/Angular"
@@ -113,9 +112,9 @@ talks:
     text: 'Conferencia de como hacer pruebas unitarias no solo mejora la calidad del software si no que tambien la calidad del desarrollador.'
     date: '2018-10-08'
     image:
-      url: 'https://firebasestorage.googleapis.com/v0/b/nicobytes-7bea8.appspot.com/o/talks%2F29749348_10215066416549706_554487993948304341_o.jpg?alt=media&token=1a36520e-98a7-464f-af75-9db486ee37b7'
-      width: 333
-      height: 514
+      url: 'https://firebasestorage.googleapis.com/v0/b/nicobytes-7bea8.appspot.com/o/talks%2F2018-10-08.jpg?alt=media&token=54d128f1-c145-4083-9141-5bf0b26a8b34'
+      width: 1200
+      height: 900
     location: 'Pando, Bolivia'
 
   - title: "Redux, Graphql y Ionic/Angular"
@@ -123,9 +122,9 @@ talks:
     text: 'Conferencia de como hacer pruebas unitarias no solo mejora la calidad del software si no que tambien la calidad del desarrollador.'
     date: '2018-09-12'
     image:
-      url: 'https://firebasestorage.googleapis.com/v0/b/nicobytes-7bea8.appspot.com/o/talks%2F29749348_10215066416549706_554487993948304341_o.jpg?alt=media&token=1a36520e-98a7-464f-af75-9db486ee37b7'
-      width: 333
-      height: 514
+      url: 'https://firebasestorage.googleapis.com/v0/b/nicobytes-7bea8.appspot.com/o/talks%2F2018-09-12.jpg?alt=media&token=02bff4ab-1a91-40e3-97b9-a6d28486b977'
+      width: 960
+      height: 640
     location: 'Sucre, Bolivia'
 
   - title: "Introducción a las PWA"
@@ -133,9 +132,9 @@ talks:
     text: 'Conferencia de como hacer pruebas unitarias no solo mejora la calidad del software si no que tambien la calidad del desarrollador.'
     date: '2018-09-11'
     image:
-      url: 'https://firebasestorage.googleapis.com/v0/b/nicobytes-7bea8.appspot.com/o/talks%2F29749348_10215066416549706_554487993948304341_o.jpg?alt=media&token=1a36520e-98a7-464f-af75-9db486ee37b7'
-      width: 333
-      height: 514
+      url: 'https://firebasestorage.googleapis.com/v0/b/nicobytes-7bea8.appspot.com/o/talks%2F2018-09-11.jpg?alt=media&token=96a72fb2-3ca3-46ee-b91f-4628ff06a19a'
+      width: 2048
+      height: 1152
     location: 'Sucre, Bolivia'
 
   - title: "NgBolivia 2018: Mobile with Angular (PWA, Nativescript and Ionic)"
@@ -143,19 +142,19 @@ talks:
     text: 'Conferencia de como hacer pruebas unitarias no solo mejora la calidad del software si no que tambien la calidad del desarrollador.'
     date: '2018-08-04'
     image:
-      url: 'https://firebasestorage.googleapis.com/v0/b/nicobytes-7bea8.appspot.com/o/talks%2F29749348_10215066416549706_554487993948304341_o.jpg?alt=media&token=1a36520e-98a7-464f-af75-9db486ee37b7'
-      width: 333
-      height: 514
+      url: 'https://firebasestorage.googleapis.com/v0/b/nicobytes-7bea8.appspot.com/o/talks%2F2018-08-04.jpg?alt=media&token=124ddc45-9d1d-483e-8528-4e8ad0abf8ab'
+      width: 1200
+      height: 800
     location: 'Sucre, Bolivia'
 
-   - title: "Flisol 2018: Ionic 4 con Angular."
+  - title: "Flisol 2018: Ionic 4 con Angular."
     type: 'conf'
     text: 'Conferencia sobre redux y workshop sobre ionic.'
     date: '2018-04-27'
     image:
-      url: 'https://firebasestorage.googleapis.com/v0/b/nicobytes-7bea8.appspot.com/o/talks%2F29749348_10215066416549706_554487993948304341_o.jpg?alt=media&token=1a36520e-98a7-464f-af75-9db486ee37b7'
-      width: 333
-      height: 514
+      url: 'https://firebasestorage.googleapis.com/v0/b/nicobytes-7bea8.appspot.com/o/talks%2F2018-04-27.jpg?alt=media&token=c1918521-f2b6-4933-8153-1b6c393ff463'
+      width: 750
+      height: 443
     location: 'Sucre, Bolivia'
 
   - title: "NgMedellín: Pruebas unitarias en Angular."
@@ -163,9 +162,9 @@ talks:
     text: 'Conferencia de como hacer pruebas unitarias no solo mejora la calidad del software si no que tambien la calidad del desarrollador.'
     date: '2018-03-17'
     image:
-      url: 'https://firebasestorage.googleapis.com/v0/b/nicobytes-7bea8.appspot.com/o/talks%2F29749348_10215066416549706_554487993948304341_o.jpg?alt=media&token=1a36520e-98a7-464f-af75-9db486ee37b7'
-      width: 333
-      height: 514
+      url: 'https://firebasestorage.googleapis.com/v0/b/nicobytes-7bea8.appspot.com/o/talks%2F2018-03-17.jpg?alt=media&token=734c74b3-bed1-4547-b8dd-0e98d352c1c1'
+      width: 2018
+      height: 965
     location: 'Mdellín, Colombia'
 
   - title: "GDG Sucre: Redux w/ Angular, Ionic w/ maps."
@@ -285,7 +284,7 @@ talks:
     text: 'Vamos a construir una aplicación para Android y IOS con Ionic. En este workshop aprenderás como iniciar un proyecto con Ionic y usar los recursos nativos como Camara, Geolocation etc. Al finalizar el wrokshop tendrás una app lista en Android y IOS con una sola base de código.'
     slides: 'http://escuela.it/cursos/curso-ionic-v2/'
     image:
-      url: 'images/time36.jpg'
+      url: '../images/time36.jpg'
       width: 2048
       height: 1152
     date: '2017-02-29'
@@ -296,7 +295,7 @@ talks:
     text: 'Progressive Web Apps promovido por Google, que plantea una arquitectura eficiente y de baja fricción para crear aplicaciones web que brindan experiencias de usuario app-like, como push notifications, uso offline, y posibilidad de instalación en vez de bookmark.'
     slides: 'http://escuela.it/cursos/curso-ionic-v2/'
     image:
-      url: 'images/time35.jpeg'
+      url: '../images/time35.jpeg'
       width: 2048
       height: 1536
     date: '2017-04-22'
@@ -307,7 +306,7 @@ talks:
     text: 'Los invitamos a conocer más sobre estas muy interesantes tecnologías, lo que tienen en común, sus diferencias, ventajas y desventajas. Vamos a enfocarnos en mirar las diferencias entre nativeScript y reactNative ya que ionic realmente es algo diferente (un webView) y no sería muy justo comparar “peras“ y “manzanas“.'
     slides: 'http://www.nicobytes.com/course-ionic2/'
     image:
-      url: 'images/time38.png'
+      url: '../images/time38.png'
       width: 1200
       height: 1200
     date: '2017-03-15'
@@ -318,7 +317,7 @@ talks:
     text: '¡La única app para jugar con tus Matripuntos!'
     slides: 'https://duety.app.link/vEKYygadLA'
     image:
-      url: 'images/time33.jpg'
+      url: '../images/time33.jpg'
       width: 1200
       height: 630
     date: '2017-02-14'
@@ -337,7 +336,7 @@ talks:
     text: 'El evento donde todas las comunidades se reunen para hablar de desarrollo, metodologías, arquitectura, entre otros. El evento será él día antes del Primer PyCon Colombia.'
     slides: 'https://devday.splashthat.com/'
     image:
-      url: 'images/time31.jpg'
+      url: '../images/time31.jpg'
       width: 1200
       height: 675
     date: '2017-02-09'
@@ -348,7 +347,7 @@ talks:
     text: 'AMP Project es una tecnología de google para optimizar websites enfocados a marketing de contenido.'
     slides: 'https://docs.google.com/presentation/d/1gT0QSYHal9JCP6Xo121KFcfj6BGw6ahAZHP_hjpAG_o/pub?start=false&loop=false&delayms=3000&slide=id.g1550b30484_2_274'
     image:
-      url: 'images/time30.jpeg'
+      url: '../images/time30.jpeg'
       width: 1280
       height: 960
     date: '2017-01-26'
@@ -359,7 +358,7 @@ talks:
     text: 'Recuerda que Ionic 2 es un poderoso SDK para desarrollar apps nativas y PWA usando Html, css y Js, además está basado en Angular 2 y además tiene sus servicios de Ionic Cloud, el cual nos provee una serie de herramienta para potenciar nuestras apps.'
     slides: 'http://www.nicobytes.com/slides-ionic-push/#/'
     image:
-      url: 'images/time29.jpeg'
+      url: '../images/time29.jpeg'
       width: 1200
       height: 675
     date: '2016-12-15'
@@ -371,7 +370,7 @@ talks:
 En Cali, el 9 y 10 de Diciembre de 2016.'
     slides: 'https://djangogirls.org/cali/'
     image:
-      url: 'images/time27.jpg'
+      url: '../images/time27.jpg'
       width: 1080
       height: 528
     date: '2016-12-10'
@@ -382,7 +381,7 @@ En Cali, el 9 y 10 de Diciembre de 2016.'
     text: 'Jekyll is un proyecto libre y basado en ruby, que nos permite crear geniales sitios fácilmente. Es fácil de usar y extremadamente rápido para construir sitios. Millones de personas lo usan y tiene conexión directa con GitHub Pages. En el meetup aprenderás como funciona y poner en marcha un sitio con Jekyll. '
     slides: 'https://drive.google.com/open?id=1GaQp1yVRjAa1jmBeWSRl7wC03rjJ0ZRaeysVM3-P3oQ'
     image:
-      url: 'images/time17.jpeg'
+      url: '../images/time17.jpeg'
       width: 800
       height: 578
     date: '2016-11-17'
@@ -393,7 +392,7 @@ En Cali, el 9 y 10 de Diciembre de 2016.'
     text: 'Meetup sobre la integración de Firebase 3 + Ionic 2, en esta ocasión hablaremos haremos la integración de una app con Ionic 2 con Firebase Database y Firebase Auth.'
     slides: 'http://slides.com/nicobytes/ionic-2-firebase-3'
     image:
-      url: 'images/time18.jpg'
+      url: '../images/time18.jpg'
       width: 800
       height: 539
     date: '2016-11-11'
@@ -404,7 +403,7 @@ En Cali, el 9 y 10 de Diciembre de 2016.'
     text: "Progressive Web Apps promovido por Google, que plantea una arquitectura eficiente y de baja fricción para crear aplicaciones web que brindan experiencias de usuario app-like, como push notifications, uso offline, y posibilidad de instalación en vez de bookmark."
     slides: 'https://drive.google.com/open?id=1EzhZW8_qb2s9RBUh479WLWcPrliqYRZRLr-vjy8H_8w'
     image:
-      url: 'images/time19.jpg'
+      url: '../images/time19.jpg'
       width: 800
       height: 602
     date: '2016-10-26'
@@ -415,7 +414,7 @@ En Cali, el 9 y 10 de Diciembre de 2016.'
     text: "Vamos a construir una aplicación para Android y IOS con Ionic 2. En este workshop aprenderás como iniciar un proyecto con Ionic y usar los recursos nativos como Camara, Geolocation etc. Al finalizar el wrokshop tendrás una app lista en Android y IOS con una sola base de código."
     slides: 'http://www.nicobytes.com/ionic-v2-slides'
     image:
-      url: 'images/time20.jpg'
+      url: '../images/time20.jpg'
       width: 800
       height: 731
     date: '2016-10-25'
@@ -426,7 +425,7 @@ En Cali, el 9 y 10 de Diciembre de 2016.'
     text: "Let's meet together for a workshop to build a mobile app with ionicV2 . In this workshop you will learn how to start a new Ionic project, create and style multiple views, add a backend(Firebase), build app for Android or IOS, and use Cordova plugins like Camera, Geolocation etc. By the end of the workshop, you will have built a useful, mature, mobile app that is ready for app store submission."
     slides: 'http://www.nicobytes.com/ionic-v2-slides'
     image:
-      url: 'images/time21.jpg'
+      url: '../images/time21.jpg'
       width: 800
       height: 550
     tweet: '785482004108349440'
@@ -449,7 +448,7 @@ En Cali, el 9 y 10 de Diciembre de 2016.'
     text: 'Nuestro próximo meetup sobre lo nuevo de ionic 2. Recuerden que ionic es un framework, open source, para desarrollaraplicaciones nativas (Android, IOS, WP, etc) y progressive web apps.'
     slides: 'http://www.nicobytes.com/ionic-v2-slides'
     image:
-      url: 'images/time22.jpg'
+      url: '../images/time22.jpg'
       width: 800
       height: 597
     date: '2016-08-15'
@@ -460,7 +459,7 @@ En Cali, el 9 y 10 de Diciembre de 2016.'
     text: 'Nuestro próximo meetup sobre lo nuevo de ionic 2. Recuerden que ionic es un framework, open source, para desarrollaraplicaciones nativas (Android, IOS, WP, etc) y progressive web apps.'
     slides: 'http://www.nicobytes.com/ionic-v2-slides'
     image:
-      url: 'images/time23.jpg'
+      url: '../images/time23.jpg'
       width: 800
       height: 516
     date: '2016-08-09'
@@ -471,7 +470,7 @@ En Cali, el 9 y 10 de Diciembre de 2016.'
     text: 'AMP Project es una tecnología de google para optimizar websites enfocados a marketing de contenido.'
     slides: 'http://slides.com/nicobytes/deck-10'
     image:
-      url: 'images/time16.jpeg'
+      url: '../images/time16.jpeg'
       width: 800
       height: 434
     date: '2016-08-19'
@@ -482,7 +481,7 @@ En Cali, el 9 y 10 de Diciembre de 2016.'
     text: 'AMP Project es una tecnología de google para optimizar websites enfocados a marketing de contenido.'
     slides: 'https://drive.google.com/open?id=1i8h9RyEtdVYqUChGz0YOJutjkAgquwVPVEPk0QfQCc0'
     image:
-      url: 'images/time15.jpg'
+      url: '../images/time15.jpg'
       width: 1325
       height: 883
     date: '2016-08-09'
@@ -493,7 +492,7 @@ En Cali, el 9 y 10 de Diciembre de 2016.'
     text: 'Todo lo que necesitas saber para comenzar en Ionic 2.'
     slides: 'http://www.nicobytes.com/ionic-v2-slides'
     image:
-      url: 'images/time14.jpg'
+      url: '../images/time14.jpg'
       width: 2592
       height: 1936
     date: '2016-07-13'
@@ -504,7 +503,7 @@ En Cali, el 9 y 10 de Diciembre de 2016.'
     text: 'Ven y conoce sobre las mejores prácticas para alcanzar tu potencial a nivel mundial, trabajar con las mejores empresas del mundo desde donde tu quieras, además descubre las tecnologías que están cambiando el mundo de la mano de los mejores..'
     slides: 'http://www.nicobytes.com/ionic-slides'
     image:
-      url: 'images/time12.jpg'
+      url: '../images/time12.jpg'
       width: 960
       height: 540
     date: '2016-05-14'
@@ -515,7 +514,7 @@ En Cali, el 9 y 10 de Diciembre de 2016.'
     text: 'Ven y conoce sobre las mejores prácticas para alcanzar tu potencial a nivel mundial, trabajar con las mejores empresas del mundo desde donde tu quieras, además descubre las tecnologías que están cambiando el mundo de la mano de los mejores..'
     slides: 'http://www.nicobytes.com/ionic-slides'
     image:
-      url: 'images/time11.jpg'
+      url: '../images/time11.jpg'
       width: 1280
       height: 853
     date: '2016-05-07'
@@ -526,7 +525,7 @@ En Cali, el 9 y 10 de Diciembre de 2016.'
     text: 'Siguiendo con el workshop haremos una aplicación en live code, donde aprenderemos los principales componentes de ionic framework y su uso.'
     slides: 'http://slides.com/nicobytes/ionic-workshop'
     image:
-      url: 'images/time10.jpg'
+      url: '../images/time10.jpg'
       width: 2048
       height: 1536
     date: '2016-04-30'
@@ -537,7 +536,7 @@ En Cali, el 9 y 10 de Diciembre de 2016.'
     text: 'Siguiendo con el workshop haremos una aplicación en live code, donde aprenderemos los principales componentes de ionic framework y su uso.'
     slides: 'http://slides.com/nicobytes/ionic-workshop'
     image:
-      url: 'images/time9.jpg'
+      url: '../images/time9.jpg'
       width: 960
       height: 540
     date: '2016-04-16'
@@ -548,7 +547,7 @@ En Cali, el 9 y 10 de Diciembre de 2016.'
     text: 'Desarrollo de aplicaciones híbridas con ionic desarrollo multiplataforma con la misma base de código.'
     slides: 'http://www.nicobytes.com/ionic-slides'
     image:
-      url: 'images/time8.jpg'
+      url: '../images/time8.jpg'
       width: 1280
       height: 768
     date: '2016-04-13'
@@ -559,7 +558,7 @@ En Cali, el 9 y 10 de Diciembre de 2016.'
     text: 'Siguiendo con el workshop haremos una aplicación en live code, donde aprenderemos los principales componentes de ionic framework y su uso.'
     slides: 'http://slides.com/nicobytes/ionic-workshop'
     image:
-      url: 'images/time7.jpg'
+      url: '../images/time7.jpg'
       width: 2048
       height: 1536
     date: '2016-04-09'
@@ -570,7 +569,7 @@ En Cali, el 9 y 10 de Diciembre de 2016.'
     text: 'Desarrollo de aplicaciones híbridas con ionic desarrollo multiplataforma con la misma base de código.'
     slides: 'http://www.nicobytes.com/ionic-slides/'
     image:
-      url: 'images/time6.jpg'
+      url: '../images/time6.jpg'
       width: 667
       height: 500
     date: '2016-03-24'
@@ -580,7 +579,7 @@ En Cali, el 9 y 10 de Diciembre de 2016.'
     type: 'workshop'
     text: 'Siguiendo con el workshop haremos una aplicación en live code, donde aprenderemos los principales componentes de ionic framework y su uso.'
     image:
-      url: 'images/time5.jpg'
+      url: '../images/time5.jpg'
       width: 960
       height: 720
     date: '2016-03-04'
@@ -591,7 +590,7 @@ En Cali, el 9 y 10 de Diciembre de 2016.'
     text: 'Desarrollo de aplicaciones híbridas con ionic desarrollo multiplataforma con la misma base de código.'
     slides: 'http://www.nicobytes.com/ionic-slides/'
     image:
-      url: 'images/time4.jpg'
+      url: '../images/time4.jpg'
       width: 960
       height: 540
     date: '2016-02-05'
@@ -610,7 +609,7 @@ En Cali, el 9 y 10 de Diciembre de 2016.'
     text: 'En un gran proyecto en cual puedes aumentar el performance de la aplicación híbrida, teniendo un webView más poderoso y estándar reduciendo la fragmentación de dispositivos, además veremos cómo añadirlos a proyectos con cordova, phonegap o ionic framework. '
     slides: 'http://slides.com/nicobytes/crosswalk#/'
     image:
-      url: 'images/time2.jpg'
+      url: '../images/time2.jpg'
       width: 1280
       height: 720
     date: '2015-09-08'
@@ -621,7 +620,7 @@ En Cali, el 9 y 10 de Diciembre de 2016.'
     text: 'Aprende a trabajar con estas dos increíbles tecnologías para desarrollar tu aplicación móvil. Conocerás cómo integrar bases de datos NoSql con firebase, haciendo que tu aplicación tenga conexión en tiempo real con tus datos.'
     slides: 'http://slides.com/nicobytes/construyendo-apps#/'
     image:
-      url: 'images/time1.jpeg'
+      url: '../images/time1.jpeg'
       width: 1280
       height: 720
     date: '2015-07-09'
