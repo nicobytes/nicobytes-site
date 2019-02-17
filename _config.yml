@@ -21,17 +21,17 @@ sass:
   style: compressed
 
 links:
-  - title: 'Inicio'
+  - title: 'Home'
     url: /
     target: '_self'
-  - title: 'Blog'
-    url: 'https://blog.ng-classroom.com/blog/authors/nicobytes/'
-    target: '_blank'
-  - title: 'Charlas'
+  - title: 'Talks'
     url: /talks
     target: '_self'
   - title: 'Youtube'
     url: 'https://www.youtube.com/c/nicobytes'
+    target: '_blank'
+  - title: 'Blog'
+    url: 'https://blog.ng-classroom.com/blog/authors/nicobytes/'
     target: '_blank'
 
 social:
