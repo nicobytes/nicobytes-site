@@ -60,4 +60,13 @@ section.content{
     font-weight: bolder;
     text-decoration: underline;
   } 
+  table {
+    border: 1px solid #dee2e6;
+    border-collapse: collapse;
+    th,
+    td {
+      padding: 10px 15px;
+      border: 1px solid #dee2e6;
+    }
+  }
 }

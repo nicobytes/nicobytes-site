@@ -1,11 +1,18 @@
 ---
 layout: community
 title: 'Community'
-permalink: /community/
+permalink: /ng-community/
 ---
 
-
 #  Community Impacts
+
+## Resume
+
+| Impact          | Description              | Total  |
+| --------------  | :----------------------: | ------ |
+| Direct Impact   | Meetups, confs and talks | +3k    |
+| Indirect Impact | Articles and videos      | +15k   |
+| People Trained  | Courses and workshops    | +200   |
 
 ## [1. NgBolivia 2018](https://ng-bolivia.org/){:target="_blank"} [Co-organizer] International Conference
 

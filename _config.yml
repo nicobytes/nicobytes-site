@@ -47,6 +47,17 @@ social:
     icon: "stack-overflow"
 
 talks:
+
+  - title: "Ng 'Bogotá: Pruebas unitarias en Angular"
+    type: 'meetup'
+    text: 'Pruebas unitarias a los artefactos de Angular, como servicios, clases, componentes y pipes.'
+    date: '2019-02-22'
+    image:
+      url: 'https://firebasestorage.googleapis.com/v0/b/nicobytes-7bea8.appspot.com/o/talks%2F2019-02-21.jpg?alt=media&token=0189ebee-0fc5-40a7-a8fe-6320011db0a6'
+      width: 2048
+      height: 1536
+    location: 'Bogotá, Colombia'
+
   - title: "Angular Colombia: Analizando el tamaño del bundle en Angular"
     type: 'meetup'
     text: 'Vimos varias de las practicas para analizar y optimizar el peso de nuestras aplicaciones.'
