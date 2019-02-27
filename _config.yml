@@ -48,7 +48,7 @@ social:
 
 talks:
 
-  - title: "Ng 'Bogotá: Pruebas unitarias en Angular"
+  - title: "Ng Bogotá: Pruebas unitarias en Angular"
     type: 'meetup'
     text: 'Pruebas unitarias a los artefactos de Angular, como servicios, clases, componentes y pipes.'
     date: '2019-02-22'
