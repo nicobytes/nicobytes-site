@@ -48,129 +48,151 @@ social:
 
 talks:
 
-  - title: "Ng Bogotá: Pruebas unitarias en Angular"
+  - title: "InspireTech: DataViz Art meets science"
+    type: 'conf'
+    text: "In this conference, I explain the process for data visualization with IBM's guidelines. The process, check charts models, best practices in visualizations, interaction, style, and animation. Finally, we watch tools and libs to build quickly visualizations."
+    date: '2019-02-207'
+    image:
+      url: 'https://firebasestorage.googleapis.com/v0/b/nicobytes-7bea8.appspot.com/o/talks%2F2019-03-07.jpg?alt=media&token=8f34744c-053d-423c-9e0d-634144a9b9c3'
+      width: 1280
+      height: 960
+    location: 'Bogotá, Colombia'
+
+
+  - title: "Ng Bogotá: Unit tests with Angular"
     type: 'meetup'
-    text: 'Pruebas unitarias a los artefactos de Angular, como servicios, clases, componentes y pipes.'
+    text: 'Check unit tests for Angular and view best practices to write test cases for components, pipes, services, directives and how to use spies in tests.'
     date: '2019-02-22'
     image:
       url: 'https://firebasestorage.googleapis.com/v0/b/nicobytes-7bea8.appspot.com/o/talks%2F2019-02-21.jpg?alt=media&token=0189ebee-0fc5-40a7-a8fe-6320011db0a6'
       width: 2048
       height: 1536
     location: 'Bogotá, Colombia'
+    link: https://www.meetup.com/NgColombia-Bogota/events/258763226/
 
-  - title: "Angular Colombia: Analizando el tamaño del bundle en Angular"
+  - title: "Angular Colombia: Analyzing your bundle size"
     type: 'meetup'
-    text: 'Vimos varias de las practicas para analizar y optimizar el peso de nuestras aplicaciones.'
+    text: 'We review practices to analyze the bundle size and the import for quickly load in Angular apps, check the sizes the libs inside app with bundlephohia tool and use webpack bundle analyzer, then use import cost in VSCode and talk about the impact the Angular Ivy in bundle size.'
     date: '2019-01-22'
     image:
       url: 'https://firebasestorage.googleapis.com/v0/b/nicobytes-7bea8.appspot.com/o/talks%2F2019-01-22.jpg?alt=media&token=63f92c32-37da-40af-900c-26a452ce5558'
       width: 1080
       height: 1080
     location: 'Bogotá, Colombia'
+    link: https://www.meetup.com/Angular-Colombia/events/258124821/
 
   - title: "QA Bolivia: Coverage report"
     type: 'meetup'
-    text: 'Meetup sobre el reporte de covertura.'
+    text: 'We analyze coverage report in Angular App, I talk about the coverage criteria like measure used to describe to the degree the source code is executed when test cases run.'
     date: '2018-12-01'
     image:
       url: 'https://firebasestorage.googleapis.com/v0/b/nicobytes-7bea8.appspot.com/o/talks%2F2018-12-01.jpg?alt=media&token=0c9c9135-94c2-4231-9b92-ecbd8e0dbb0f'
       width: 1728
       height: 1152
     location: 'Cochabamba, Bolivia'
+    link: https://www.facebook.com/events/350369469054567/?active_tab=about
 
   - title: "Ng Girls Bolivia 2018"
     type: 'conf'
-    text: 'Conferencia de como hacer pruebas unitarias no solo mejora la calidad del software si no que tambien la calidad del desarrollador.'
+    text: 'I participated as a co-organizer and mentor in the first Ng Girls in Bolivia, the event focus on women in Tech.'
     date: '2018-11-24'
     image:
       url: 'https://firebasestorage.googleapis.com/v0/b/nicobytes-7bea8.appspot.com/o/talks%2F2018-11-24.jpg?alt=media&token=5e4f59e5-d11e-4cee-8a3e-dde2aac8d994'
       width: 960
       height: 426
     location: 'Cochabamba, Bolivia'
+    link: http://ng-girls.org/bolivia-2018/
 
-  - title: "TechZone 2018: Chatbots en Azure"
+
+  - title: "TechZone 2018: Chatbots with Azure"
     type: 'conf'
-    text: 'Conferencia de como hacer pruebas unitarias no solo mejora la calidad del software si no que tambien la calidad del desarrollador.'
+    text: 'The chatbots are the new way for acquisition and retention of users with good attention thanks to NPL and the conversational UX. In this conference, I talk about how to build chatbots with Azure and use Chat Bot Framework and LUIS (Language understating service by Microsoft ). '
     date: '2018-10-26'
     image:
       url: 'https://firebasestorage.googleapis.com/v0/b/nicobytes-7bea8.appspot.com/o/talks%2F2018-10-26.jpg?alt=media&token=b81394f0-2539-44e1-9c88-47a5e45a1f68'
       width: 2048
       height: 1536
     location: 'Cochabamba, Bolivia'
+    link: http://tech-zone.org/#/es/memorias
 
-  - title: "ArgenTesting 2018: Pruebas unitarias, haciendo la vida del desaroolador más facil"
+  - title: "ArgenTesting 2018: Unit tests in the life of a developer"
     type: 'conf'
-    text: 'Conferencia de como hacer pruebas unitarias no solo mejora la calidad del software si no que tambien la calidad del desarrollador.'
+    text: 'In this conference, I talk about how to write good tests cases help to be a better developer and help to build in a better product.'
     date: '2018-10-19'
     image:
       url: 'https://firebasestorage.googleapis.com/v0/b/nicobytes-7bea8.appspot.com/o/talks%2F2018-10-19.jpg?alt=media&token=02d5ba4a-8f20-4593-be1d-7a72c1d5b386'
       width: 1080
       height: 719
     location: 'Buenos aires, Argentina'
+    link: https://argentesting.com/ediciones/edicion-2018/
 
-  - title: "ArgenTesting 2018: Codelab, Unit testing w/ Angular"
+  - title: "ArgenTesting 2018: Codelab, Unit testing with Angular"
     type: 'workshop'
-    text: 'Conferencia de como hacer pruebas unitarias no solo mejora la calidad del software si no que tambien la calidad del desarrollador.'
+    text: 'Codelab for check unit tests for Angular and view best practices to write test cases for components, pipes, services, directives and how to use spies in tests.'
     date: '2018-10-18'
     image:
       url: 'https://firebasestorage.googleapis.com/v0/b/nicobytes-7bea8.appspot.com/o/talks%2F2018-10-18.jpg?alt=media&token=22ed6ad4-b138-4622-8d7f-1e539ded517e'
       width: 1280
       height: 720
-    location: 'Buenos aires, Argentina'
+    link: https://argentesting.com/ediciones/edicion-2018/
 
-  - title: "Cobol2018: Redux, Graphql y Ionic/Angular"
+  - title: "Cobol2018: Redux, Graphql and Ionic/Angular"
     type: 'conf'
-    text: 'Conferencia de como hacer pruebas unitarias no solo mejora la calidad del software si no que tambien la calidad del desarrollador.'
+    text: 'In the COBOL 2018 (Congreso Nacional de Ciencias de la Computación en Bolivia) I talk about redux like state container for apps with Angular, GraphQL from backend with NodeJS and development with Ionic/Angular for cross platforms apps.'
     date: '2018-10-08'
     image:
       url: 'https://firebasestorage.googleapis.com/v0/b/nicobytes-7bea8.appspot.com/o/talks%2F2018-10-08.jpg?alt=media&token=54d128f1-c145-4083-9141-5bf0b26a8b34'
       width: 1200
       height: 900
     location: 'Pando, Bolivia'
+    link: http://ccbol2018.com/programa/
 
-  - title: "Redux, Graphql y Ionic/Angular"
+  - title: "Cistrib 2018: Redux, Graphql y Ionic/Angular"
     type: 'conf'
-    text: 'Conferencia de como hacer pruebas unitarias no solo mejora la calidad del software si no que tambien la calidad del desarrollador.'
+    text: 'In the Cistrib 2018 (Congreso Panamericano de Ingeniería de Sistemas, Telecomunicaciones, Redes e Informática), I talk about GraphQL from backend with NodeJS and development with Ionic/Angular for cross platforms apps.'
     date: '2018-09-12'
     image:
       url: 'https://firebasestorage.googleapis.com/v0/b/nicobytes-7bea8.appspot.com/o/talks%2F2018-09-12.jpg?alt=media&token=02bff4ab-1a91-40e3-97b9-a6d28486b977'
       width: 960
       height: 640
     location: 'Sucre, Bolivia'
+    link: https://congreso.cistrib.org/expositores
 
-  - title: "Introducción a las PWA"
+  - title: "Introduction about PWA"
     type: 'conf'
-    text: 'Conferencia de como hacer pruebas unitarias no solo mejora la calidad del software si no que tambien la calidad del desarrollador.'
+    text: 'In the Cistrib 2018 (Congreso Panamericano de Ingeniería de Sistemas, Telecomunicaciones, Redes e Informática), I talk about PWA metrics and advantages like service workers, push notifications, offline data and installable capacity.'
     date: '2018-09-11'
     image:
       url: 'https://firebasestorage.googleapis.com/v0/b/nicobytes-7bea8.appspot.com/o/talks%2F2018-09-11.jpg?alt=media&token=96a72fb2-3ca3-46ee-b91f-4628ff06a19a'
       width: 2048
       height: 1152
     location: 'Sucre, Bolivia'
+    link: https://congreso.cistrib.org/expositores
 
   - title: "NgBolivia 2018: Mobile with Angular (PWA, Nativescript and Ionic)"
     type: 'conf'
-    text: 'Conferencia de como hacer pruebas unitarias no solo mejora la calidad del software si no que tambien la calidad del desarrollador.'
+    text: 'In the NgBolivia 2018 the first international conference about Angular in Bolivia I participated as co-organizer and speaker my talk is about Mobile Apps with Angular (PWA, Nativescript and Ionic) in this conference I show each approach and the uses cases for each one.'
     date: '2018-08-04'
     image:
       url: 'https://firebasestorage.googleapis.com/v0/b/nicobytes-7bea8.appspot.com/o/talks%2F2018-08-04.jpg?alt=media&token=124ddc45-9d1d-483e-8528-4e8ad0abf8ab'
       width: 1200
       height: 800
     location: 'Sucre, Bolivia'
+    link: https://ng-bolivia.org/speakers/
 
-  - title: "Flisol 2018: Ionic 4 con Angular."
+  - title: "Flisol 2018: Ionic 4 with Angular."
     type: 'conf'
-    text: 'Conferencia sobre redux y workshop sobre ionic.'
+    text: 'In the FLISOL Bolivia 2018, I talk about Ionic 4 with Angular I show the big changes in the Ionic core with web components.'
     date: '2018-04-27'
     image:
       url: 'https://firebasestorage.googleapis.com/v0/b/nicobytes-7bea8.appspot.com/o/talks%2F2018-04-27.jpg?alt=media&token=c1918521-f2b6-4933-8153-1b6c393ff463'
       width: 750
       height: 443
-    location: 'Sucre, Bolivia'
+    location: 'Cochabamba, Bolivia'
 
-  - title: "NgMedellín: Pruebas unitarias en Angular."
+  - title: "NgMedellín: Unit tests with Angular."
     type: 'conf'
-    text: 'Conferencia de como hacer pruebas unitarias no solo mejora la calidad del software si no que tambien la calidad del desarrollador.'
+    text: 'Meetup for check unit tests for Angular and view best practices to write test cases for components, pipes, services, directives and how to use spies in tests.'
     date: '2018-03-17'
     image:
       url: 'https://firebasestorage.googleapis.com/v0/b/nicobytes-7bea8.appspot.com/o/talks%2F2018-03-17.jpg?alt=media&token=734c74b3-bed1-4547-b8dd-0e98d352c1c1'
@@ -178,9 +200,9 @@ talks:
       height: 965
     location: 'Mdellín, Colombia'
 
-  - title: "GDG Sucre: Redux w/ Angular, Ionic w/ maps."
+  - title: "GDG Sucre: Redux with Angular and Ionic with maps."
     type: 'conf'
-    text: 'Conferencia sobre redux y workshop sobre ionic.'
+    text: 'In this conference, I talk about redux like state container for apps with Angular and integrate Ionic with Google Maps.'
     date: '2018-04-06'
     image:
       url: 'https://firebasestorage.googleapis.com/v0/b/nicobytes-7bea8.appspot.com/o/talks%2F29749348_10215066416549706_554487993948304341_o.jpg?alt=media&token=1a36520e-98a7-464f-af75-9db486ee37b7'
@@ -188,19 +210,9 @@ talks:
       height: 514
     location: 'Sucre, Bolivia'
 
-  - title: "Mapas en tiempo real con Ionic + Firebase + Gmaps."
+  - title: "DevFest: Maps with real-time with Ionic, Firebase, and Gmaps."
     type: 'workshop'
-    text: 'Taller para construir apps con mapas.'
-    date: '2017-11-25'
-    image:
-      url: 'https://firebasestorage.googleapis.com/v0/b/nicobytes-7bea8.appspot.com/o/talks%2F23843390_10213931993189831_6887444128335579290_n.jpg?alt=media&token=a1330e53-8189-406a-b5d7-5eca5da6c748'
-      width: 457
-      height: 457
-    location: 'Santa Cruz, Bolivia'
-
-  - title: "Mapas en tiempo real con Ionic + Firebase + Gmaps."
-    type: 'workshop'
-    text: 'Taller para construir apps con mapas.'
+    text: 'In this conference, I show how to integrate Ionic, Firebase, background geolocation plugin, and Google Maps in an app for tracking cars in real-time.'
     date: '2017-11-25'
     image:
       url: 'https://firebasestorage.googleapis.com/v0/b/nicobytes-7bea8.appspot.com/o/talks%2F23843390_10213931993189831_6887444128335579290_n.jpg?alt=media&token=a1330e53-8189-406a-b5d7-5eca5da6c748'
@@ -210,7 +222,7 @@ talks:
   
   - title: "GraphQL + Django"
     type: 'meetup'
-    text: 'GraphQL + Django para web services más poderos.'
+    text: 'In this meetup, I talk about how to implement GraphQL in Django projects with graphene.'
     image:
       url: 'https://secure.meetupstatic.com/photos/event/4/6/a/f/highres_464178095.jpeg'
       width: 669
