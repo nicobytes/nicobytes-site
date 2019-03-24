@@ -51,7 +51,7 @@ talks:
   - title: "InspireTech: DataViz Art meets science"
     type: 'conf'
     text: "In this conference, I explain the process for data visualization with IBM's guidelines. The process, check charts models, best practices in visualizations, interaction, style, and animation. Finally, we watch tools and libs to build quickly visualizations."
-    date: '2019-02-207'
+    date: '2019-03-07'
     image:
       url: 'https://firebasestorage.googleapis.com/v0/b/nicobytes-7bea8.appspot.com/o/talks%2F2019-03-07.jpg?alt=media&token=8f34744c-053d-423c-9e0d-634144a9b9c3'
       width: 1280
