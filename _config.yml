@@ -147,7 +147,7 @@ talks:
     location: 'Pando, Bolivia'
     link: http://ccbol2018.com/programa/
 
-  - title: "Cistrib 2018: Redux, Graphql y Ionic/Angular"
+  - title: "Cistrib 2018: Redux, Graphql and Ionic/Angular"
     type: 'conf'
     text: 'In the Cistrib 2018 (Congreso Panamericano de Ingeniería de Sistemas, Telecomunicaciones, Redes e Informática), I talk about GraphQL from backend with NodeJS and development with Ionic/Angular for cross platforms apps.'
     date: '2018-09-12'
@@ -198,7 +198,7 @@ talks:
       url: 'https://firebasestorage.googleapis.com/v0/b/nicobytes-7bea8.appspot.com/o/talks%2F2018-03-17.jpg?alt=media&token=734c74b3-bed1-4547-b8dd-0e98d352c1c1'
       width: 2018
       height: 965
-    location: 'Mdellín, Colombia'
+    location: 'Medellín, Colombia'
 
   - title: "GDG Sucre: Redux with Angular and Ionic with maps."
     type: 'conf'
@@ -231,9 +231,9 @@ talks:
     slides: 'https://www.meetup.com/pythonbogota/photos/28129695/'
     location: 'Bogotá, Colombia'
 
-  - title: "¿Qué elegir WEBApp, PWA, Hibrido, Nativo?"
+  - title: "What to choose WEBApp, PWA, Hibryd or Native?"
     type: 'meetup'
-    text: 'Hablamos sobre las ventajas y desventajas de cada una.'
+    text: 'In this meetup, I talk about each option to develop mobile apps like PWA, hybrid app or Native app. '
     image:
       url: 'https://firebasestorage.googleapis.com/v0/b/nicobytes-7bea8.appspot.com/o/talks%2F20770105_10213123669222237_5900742260242193659_n.jpg?alt=media&token=84f80af2-387a-408e-bec7-c44418870c6b'
       width: 502
@@ -242,9 +242,9 @@ talks:
     slides: 'https://www.meetup.com/Cross-Apps-Colombia/photos/28107734/'
     location: 'Bogotá, Colombia'
 
-  - title: "Introducción a Typescript"
+  - title: "Introduction to Typescript"
     type: 'meetup'
-    text: 'Una introducción a los beneficios de typescript y su uso con angular para la comunidad de Microsoft.'
+    text: 'A little introduction to typescript and the use with Angular for Microsoft Community..'
     image:
       url: 'https://firebasestorage.googleapis.com/v0/b/nicobytes-7bea8.appspot.com/o/talks%2F20232326_10212922610355891_2055222179071324339_o.jpg?alt=media&token=ec06a10c-7890-4c41-8aab-7f7e27646daf'
       width: 2048
@@ -252,9 +252,9 @@ talks:
     date: '2017-07-22'
     location: 'Cochabamba, Bolivia'
 
-  - title: "¿Qué son las Progressive Web Apps?"
+  - title: "Google IO La Paz: What are PWAs?"
     type: 'conf'
-    text: 'Conferencia sobre las ventajas de PWA en el Google IO La Paz.'
+    text: 'I talk about PWA metrics and advantages like service workers, push notifications, offline data and installable capacity.'
     image:
       url: 'https://firebasestorage.googleapis.com/v0/b/nicobytes-7bea8.appspot.com/o/talks%2F19105942_10212509248942114_7370288364050114202_n.jpg?alt=media&token=bb0d3b61-424a-4ca3-81c2-44f88f872d38'
       width: 720
@@ -262,9 +262,9 @@ talks:
     date: '2017-06-18'
     location: 'La Paz, Bolivia'
 
-  - title: "Debate: Nativo VS Híbrido"
+  - title: "Native app VS Hybrid app"
     type: 'meetup'
-    text: 'Debate sobre el enfoque de las dos metodologías.'
+    text: 'Discussion about the approach the each technique.'
     image:
       url: 'https://firebasestorage.googleapis.com/v0/b/nicobytes-7bea8.appspot.com/o/talks%2F19396698_10154517631456218_703332325496287841_n.jpg?alt=media&token=953d1ac0-6914-42b6-8b02-79c951a3f71f'
       width: 960
@@ -272,9 +272,9 @@ talks:
     date: '2017-06-18'
     location: 'La Paz Bolivia'
 
-  - title: "GraphQL y Python/Django"
+  - title: "GraphQL and Python/Django"
     type: 'meetup'
-    text: 'Implementación de un webservice con GraphQL y Python/Django (+ Docker)'
+    text: 'In this meetup, I talk about how to implement GraphQL in Django projects with graphene.'
     image:
       url: 'https://firebasestorage.googleapis.com/v0/b/nicobytes-7bea8.appspot.com/o/talks%2F19105486_10212498389710640_972651623765928503_n.jpg?alt=media&token=5d8b49d6-69b4-4b7b-912d-cb84887d3b6f'
       width: 720
@@ -284,7 +284,7 @@ talks:
   
   - title: "Angular Day: Push notifications with Ionic"
     type: 'conf'
-    text: 'Implementacion de Ionic push en aplicaciones android.'
+    text: 'In this meetup, I talk about how to send push notifications for Android in Ionic/Angular apps.'
     image:
       url: 'https://firebasestorage.googleapis.com/v0/b/nicobytes-7bea8.appspot.com/o/talks%2Ftime39.jpg?alt=media&token=f50c5d52-9b67-44fc-82d1-899634c488ac'
       width: 960
@@ -292,31 +292,9 @@ talks:
     date: '2017-06-10'
     location: 'Cochabamba, Bolivia'
 
-  - title: "Consultoría Ionic para PIL ANDINA"
-    type: 'course'
-    text: 'Consultaria en la implementacion de Ionic en los procesos de la compañia.'
-    image:
-      url: 'https://firebasestorage.googleapis.com/v0/b/nicobytes-7bea8.appspot.com/o/talks%2F18839871_10212439387395619_4115311463944386282_o.jpg?alt=media&token=f9eaa0f3-6e4e-4c34-9b1f-9f5a018e4462'
-      width: 1080
-      height: 810
-    date: '2017-06-07'
-    location: 'Cochabamba, Bolivia'
-
-  - title: "Workshop Ionic - Angular Day"
-    type: 'workshop'
-    text: 'Vamos a construir una aplicación para Android y IOS con Ionic. En este workshop aprenderás como iniciar un proyecto con Ionic y usar los recursos nativos como Camara, Geolocation etc. Al finalizar el wrokshop tendrás una app lista en Android y IOS con una sola base de código.'
-    slides: 'http://escuela.it/cursos/curso-ionic-v2/'
-    image:
-      url: '../images/time36.jpg'
-      width: 2048
-      height: 1152
-    date: '2017-02-29'
-    location: 'Cochabamba, Bolivia'
-
-  - title: "Progressive Web Apps en Flisol Bolivia"
+  - title: "Flisol 2017: Progressive Web Apps"
     type: 'conf'
-    text: 'Progressive Web Apps promovido por Google, que plantea una arquitectura eficiente y de baja fricción para crear aplicaciones web que brindan experiencias de usuario app-like, como push notifications, uso offline, y posibilidad de instalación en vez de bookmark.'
-    slides: 'http://escuela.it/cursos/curso-ionic-v2/'
+    text: 'I talk about PWA metrics and advantages like service workers, push notifications, offline data and installable capacity.'
     image:
       url: '../images/time35.jpeg'
       width: 2048
@@ -324,29 +302,7 @@ talks:
     date: '2017-04-22'
     location: 'Cochabamba, Bolivia'
 
-  - title: "Ionic Vs React Native Vs NativeScript"
-    type: 'meetup'
-    text: 'Los invitamos a conocer más sobre estas muy interesantes tecnologías, lo que tienen en común, sus diferencias, ventajas y desventajas. Vamos a enfocarnos en mirar las diferencias entre nativeScript y reactNative ya que ionic realmente es algo diferente (un webView) y no sería muy justo comparar “peras“ y “manzanas“.'
-    slides: 'http://www.nicobytes.com/course-ionic2/'
-    image:
-      url: '../images/time38.png'
-      width: 1200
-      height: 1200
-    date: '2017-03-15'
-    location: 'La Paz, Bolivia'
-
-  - title: "Lanzamiento de Duety"
-    type: 'conf'
-    text: '¡La única app para jugar con tus Matripuntos!'
-    slides: 'https://duety.app.link/vEKYygadLA'
-    image:
-      url: '../images/time33.jpg'
-      width: 1200
-      height: 630
-    date: '2017-02-14'
-    location: 'Bogotá, Colombia'
-
-  - title: "Mentor en DjangoGirls Bogotá"
+  - title: "DjangoGirls 2017 Bogotá"
     type: 'conf'
     text: 'Taller gratuito de programación enfocado en las mujeres, Creá tu primer sitio web utilizando Django y Python.'
     slides: 'https://djangogirls.org/bogota/'
