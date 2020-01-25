@@ -18,29 +18,30 @@
     }
     </script>
     </amp-analytics>
-    <!-- Start of Async Drift Code -->
-<script>
-!function() {
-  var t;
-  if (t = window.driftt = window.drift = window.driftt || [], !t.init) return t.invoked ? void (window.console && console.error && console.error("Drift snippet included twice.")) : (t.invoked = !0, 
-  t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
-  t.factory = function(e) {
-    return function() {
-      var n;
-      return n = Array.prototype.slice.call(arguments), n.unshift(e), t.push(n), t;
-    };
-  }, t.methods.forEach(function(e) {
-    t[e] = t.factory(e);
-  }), t.load = function(t) {
-    var e, n, o, i;
-    e = 3e5, i = Math.ceil(new Date() / e) * e, o = document.createElement("script"), 
-    o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + i + "/" + t + ".js", 
-    n = document.getElementsByTagName("script")[0], n.parentNode.insertBefore(o, n);
-  });
-}();
-drift.SNIPPET_VERSION = '0.3.1';
-drift.load('aebwg6kma32b');
-</script>
-<!-- End of Async Drift Code -->
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v5.0'
+        });
+      };
+
+      (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+    <!-- Your customer chat code -->
+    <div class="fb-customerchat"
+      attribution=setup_tool
+      page_id="701171816886416"
+logged_in_greeting="Hola! Soy Nicolas déjame tu pregunta y trataré de responderla pronto."
+logged_out_greeting="Hola! Soy Nicolas déjame tu pregunta y trataré de responderla pronto.">
+    </div>
   </body>
 </html>
